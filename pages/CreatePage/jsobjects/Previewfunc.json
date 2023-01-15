@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "Previewfunc",
+    "pageId": "CreatePage",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tgetVehicle: () => {\n\t\tlet vehicle_id = PayoutCampaignForm.formData.vehicle_id;\n\t\t\n\t\tif(typeof(vehicle_id) != \"undefined\" && vehicle_id != \"\"){\n\t\t\tlet vehicle_data = VehicleSelectionList.data;\n\t\t\tlet vehicle = vehicle_data.filter(function(vehicle){\n\t\t\t\treturn vehicle.value == vehicle_id\n\t\t\t})[0];\n\t\t\treturn \"ID- \"+ vehicle_id + \", \" + vehicle.label\n\t\t}\n\t\telse{\n\t\t\treturn \"\";\n\t\t}\n\t},\n\tgetCity: () => {\n\t\tlet city_id = PayoutCampaignForm.formData.city_id;\n\t\tif(typeof(city_id) != \"undefined\" && city_id != \"\"){\n\t\t\tlet city_data = GeoRegionsSelect.data;\n\t\t\tlet city=  city_data.filter(function(city){\n\t\t\t\treturn city.value == city_id\n\t\t\t})[0]\n\t\t\treturn \"ID- \"+ city_id + \", \" + city.label\n\t\t}\n\t\telse{\n\t\t\treturn \"\";\n\t\t}\n\t},\n\tgetStartDate: () =>{\n\t\treturn PayoutCampaignForm.formData.campaign_start_date + \" 00:00\"\n\t},\n\tgetEndDate: () =>{\n\t\treturn  PayoutCampaignForm.formData.campaign_end_date.split(\"T\")[0] + \" 23:59\"\n\t},\n\tgetTripFare: () =>{\n\t\tlet campaign = PayoutCampaignForm.formData.campaigns.trip_fare;\n\t\tlet trip_fare_string =  campaign.active ? \"Acitve for City Launch\" : \"NA\"\n\t\treturn trip_fare_string\n\t},\n\tgetFixed: () =>{\n\t\tlet campaign = PayoutCampaignForm.formData.campaigns.fixed_percent_commission;\n\t\tlet cap_amount = typeof(campaign.cap_amount) == \"undefined\" ? \"NA\" : campaign.cap_amount \n\t\tlet fixed_commision_string =  campaign.active ? `COMMISSION: ${campaign.commission_fraction}%\t\t\t CAP_AMOUNT: ${cap_amount}` : \"NA\"\n\t\treturn fixed_commision_string\n\t},\n\tgetDryRunCamp: () =>{\n\t\tlet campaign = PayoutCampaignForm.formData.campaigns.dryrun;\n\t\tlet dry_run_string =  campaign.active ? `MIN_KM: ${campaign.min_kms} \t\t\tPER_KM_RATE: ${campaign.per_km_rate} RS\t\t\t INCV_KM_CAP: ${campaign.incv_km_cap}` : \"NA\"\n\t\treturn dry_run_string\n\t},\n\tgetLogin: () =>{\n\t\tlet campaign = PayoutCampaignForm.formData.campaigns.login_incentive;\n\t\tlet login =  campaign.active ? `AMOUNT: ${campaign.incentive_amount} RS` : \"NA\"\n\t\treturn login\n\t},\n\tgetTripBased: () =>{\n\t\tlet campaign = PayoutCampaignForm.formData.campaigns.trip_based_incentive;\n\t\tlet tripbased =  campaign.active ? `MISSED_ORDER: ${campaign.max_missed_order_count} \t\t\tABRTG_COUNT: ${campaign.max_abrtg_count}` : \"NA\";\n\t\treturn tripbased;\n\t}\n\t\n}",
+    "variables": []
+  },
+  "id": "CreatePage_Previewfunc",
+  "deleted": false,
+  "gitSyncId": "6260fd83d030f71edbd113b0_626125d0d030f71edbd113dd"
+}
