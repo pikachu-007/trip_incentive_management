@@ -19,7 +19,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "() => {\n\t\treturn [\n\t\t\t{\n\t\t\t\t\"label\": \"MG\",\n\t\t\t\t\"value\": \"0\"\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"label\": \"FLEXI\",\n\t\t\t\t\"value\": \"1\"\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"label\": \"INSTI\",\n\t\t\t\t\"value\": \"2\"\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"label\": \"TRIP_BASED\",\n\t\t\t\t\"value\": \"3\"\n\t\t\t}\n\t\t]\n\t}",
+      "body": "() => {\n  return [{\n    \"label\": \"MG\",\n    \"value\": \"0\"\n  }, {\n    \"label\": \"FLEXI\",\n    \"value\": \"1\"\n  }, {\n    \"label\": \"INSTI\",\n    \"value\": \"2\"\n  }, {\n    \"label\": \"TRIP_BASED\",\n    \"value\": \"3\"\n  }];\n}",
       "selfReferencingDataPaths": [],
       "jsArguments": [],
       "isAsync": false
@@ -35,7 +35,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "() => {\n\t\treturn [\n\t\t\t{\n\t\t\t\t\"label\": \"MG\",\n\t\t\t\t\"value\": \"0\"\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"label\": \"FLEXI\",\n\t\t\t\t\"value\": \"1\"\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"label\": \"INSTI\",\n\t\t\t\t\"value\": \"2\"\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"label\": \"TRIP_BASED\",\n\t\t\t\t\"value\": \"3\"\n\t\t\t}\n\t\t]\n\t}"
+      "() => {\n  return [{\n    \"label\": \"MG\",\n    \"value\": \"0\"\n  }, {\n    \"label\": \"FLEXI\",\n    \"value\": \"1\"\n  }, {\n    \"label\": \"INSTI\",\n    \"value\": \"2\"\n  }, {\n    \"label\": \"TRIP_BASED\",\n    \"value\": \"3\"\n  }];\n}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

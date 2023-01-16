@@ -19,7 +19,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "() => {\n\t\tstoreValue(\"driver_id_files\",driver_file.files[0].data);\n\t\tshowModal(\"preview_modal\");\n\t}",
+      "body": "() => {\n  storeValue(\"driver_id_files\", driver_file.files[0].data);\n  showModal(\"preview_modal\");\n}",
       "selfReferencingDataPaths": [],
       "jsArguments": [],
       "isAsync": true
@@ -34,7 +34,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "() => {\n\t\tstoreValue(\"driver_id_files\",driver_file.files[0].data);\n\t\tshowModal(\"preview_modal\");\n\t}"
+      "() => {\n  storeValue(\"driver_id_files\", driver_file.files[0].data);\n  showModal(\"preview_modal\");\n}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

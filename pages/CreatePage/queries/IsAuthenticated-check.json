@@ -19,7 +19,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "() => {\n\t\treturn \"Authenticated\"//appsmith.store.jwt? \"Authenticated\" : \"Unauthenticated\" \n\t}",
+      "body": "() => {\n  return \"Authenticated\";\n}",
       "selfReferencingDataPaths": [],
       "jsArguments": [],
       "isAsync": false
@@ -35,7 +35,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "() => {\n\t\treturn \"Authenticated\"//appsmith.store.jwt? \"Authenticated\" : \"Unauthenticated\" \n\t}"
+      "() => {\n  return \"Authenticated\";\n}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

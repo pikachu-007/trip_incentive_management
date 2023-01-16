@@ -19,7 +19,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "() => {\n\t\tlet today = new Date();\n\t\tlet tomorrow = new Date();\n\t\ttomorrow.setDate(today.getDate() + 1);\n\t\treturn tomorrow\n\t}",
+      "body": "() => {\n  let today = new Date();\n  let tomorrow = new Date();\n  tomorrow.setDate(today.getDate() + 1);\n  return tomorrow;\n}",
       "selfReferencingDataPaths": [],
       "jsArguments": [],
       "isAsync": false
@@ -35,7 +35,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "() => {\n\t\tlet today = new Date();\n\t\tlet tomorrow = new Date();\n\t\ttomorrow.setDate(today.getDate() + 1);\n\t\treturn tomorrow\n\t}"
+      "() => {\n  let today = new Date();\n  let tomorrow = new Date();\n  tomorrow.setDate(today.getDate() + 1);\n  return tomorrow;\n}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

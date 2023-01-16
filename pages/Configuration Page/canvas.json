@@ -19,7 +19,7 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 59,
+          "version": 71,
           "minHeight": 540,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
@@ -97,6 +97,7 @@
                       "key": "op6bt8b5ke",
                       "rightColumn": 64,
                       "textAlign": "CENTER",
+                      "dynamicHeight": "FIXED",
                       "widgetId": "8im7961hx9",
                       "isVisible": true,
                       "fontStyle": "BOLD",
@@ -106,7 +107,9 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "fontSize": "1.25rem"
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "1.25rem",
+                      "minDynamicHeight": 4
                     },
                     {
                       "resetFormOnClick": true,
@@ -188,6 +191,7 @@
                       "labelTextSize": "0.875rem",
                       "isRequired": true,
                       "rightColumn": 59,
+                      "dynamicHeight": "FIXED",
                       "widgetId": "6f7qc69jpt",
                       "accentColor": "{{appsmith.theme.colors.primaryColor}}",
                       "isVisible": true,
@@ -196,7 +200,9 @@
                       "labelAlignment": "left",
                       "renderMode": "CANVAS",
                       "isLoading": false,
-                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "maxDynamicHeight": 9000,
+                      "minDynamicHeight": 4
                     },
                     {
                       "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
@@ -259,16 +265,20 @@
               "key": "fuvoujr5em",
               "backgroundColor": "#FFFFFF",
               "rightColumn": 44,
+              "dynamicHeight": "FIXED",
               "widgetId": "sudg5udxda",
               "isVisible": true,
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "maxDynamicHeight": 9000,
+              "minDynamicHeight": 4
             }
           ]
         },
         "layoutOnLoadActions": [],
+        "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "Configuration Page",
         "deleted": false,

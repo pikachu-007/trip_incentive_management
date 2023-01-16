@@ -19,7 +19,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "() =>{\n\t  return PayoutCampaignForm.formData.campaigns.trip_based_incentive.payout;\t\n\t}",
+      "body": "() => {\n  return PayoutCampaignForm.formData.campaigns.trip_based_incentive.payout;\n}",
       "selfReferencingDataPaths": [],
       "jsArguments": [],
       "isAsync": false
@@ -34,7 +34,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "() =>{\n\t  return PayoutCampaignForm.formData.campaigns.trip_based_incentive.payout;\t\n\t}"
+      "() => {\n  return PayoutCampaignForm.formData.campaigns.trip_based_incentive.payout;\n}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

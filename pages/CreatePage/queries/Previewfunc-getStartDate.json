@@ -19,7 +19,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "() =>{\n\t\treturn PayoutCampaignForm.formData.campaign_start_date + \" 00:00\"\n\t}",
+      "body": "() => {\n  return PayoutCampaignForm.formData.campaign_start_date + \" 00:00\";\n}",
       "selfReferencingDataPaths": [],
       "jsArguments": [],
       "isAsync": false
@@ -34,7 +34,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "() =>{\n\t\treturn PayoutCampaignForm.formData.campaign_start_date + \" 00:00\"\n\t}"
+      "() => {\n  return PayoutCampaignForm.formData.campaign_start_date + \" 00:00\";\n}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

@@ -19,7 +19,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "() => {\n\t\t\t\t\tlet driver_ids = appsmith.store.driver_id_files.split(\"base64,\")[1]\n\t\t\tlet data=  atob(driver_ids).split(/\\r\\n|\\n/);\n\t\t\tlet driver_id_index =  data[0].split(',').findIndex( (ele)=> { return ele ==\"driver_id\" })\n\t\t\tlet result_ids = []\n\t\t\tlet elements = result_ids;\n\n\t\t\n\t\treturn appsmith.store.duplicates.length;\n\t}",
+      "body": "() => {\n  let driver_ids = appsmith.store.driver_id_files.split(\"base64,\")[1];\n  let data = atob(driver_ids).split(/\\r\\n|\\n/);\n  let driver_id_index = data[0].split(',').findIndex(ele => {\n    return ele == \"driver_id\";\n  });\n  let result_ids = [];\n  let elements = result_ids;\n  return appsmith.store.duplicates.length;\n}",
       "selfReferencingDataPaths": [],
       "jsArguments": [],
       "isAsync": false
@@ -34,7 +34,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "() => {\n\t\t\t\t\tlet driver_ids = appsmith.store.driver_id_files.split(\"base64,\")[1]\n\t\t\tlet data=  atob(driver_ids).split(/\\r\\n|\\n/);\n\t\t\tlet driver_id_index =  data[0].split(',').findIndex( (ele)=> { return ele ==\"driver_id\" })\n\t\t\tlet result_ids = []\n\t\t\tlet elements = result_ids;\n\n\t\t\n\t\treturn appsmith.store.duplicates.length;\n\t}"
+      "() => {\n  let driver_ids = appsmith.store.driver_id_files.split(\"base64,\")[1];\n  let data = atob(driver_ids).split(/\\r\\n|\\n/);\n  let driver_id_index = data[0].split(',').findIndex(ele => {\n    return ele == \"driver_id\";\n  });\n  let result_ids = [];\n  let elements = result_ids;\n  return appsmith.store.duplicates.length;\n}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

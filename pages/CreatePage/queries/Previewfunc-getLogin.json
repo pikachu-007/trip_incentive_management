@@ -19,7 +19,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "() =>{\n\t\tlet campaign = PayoutCampaignForm.formData.campaigns.login_incentive;\n\t\tlet login =  campaign.active ? `AMOUNT: ${campaign.incentive_amount} RS` : \"NA\"\n\t\treturn login\n\t}",
+      "body": "() => {\n  let campaign = PayoutCampaignForm.formData.campaigns.login_incentive;\n  let login = campaign.active ? `AMOUNT: ${campaign.incentive_amount} RS` : \"NA\";\n  return login;\n}",
       "selfReferencingDataPaths": [],
       "jsArguments": [],
       "isAsync": false
@@ -34,7 +34,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "() =>{\n\t\tlet campaign = PayoutCampaignForm.formData.campaigns.login_incentive;\n\t\tlet login =  campaign.active ? `AMOUNT: ${campaign.incentive_amount} RS` : \"NA\"\n\t\treturn login\n\t}"
+      "() => {\n  let campaign = PayoutCampaignForm.formData.campaigns.login_incentive;\n  let login = campaign.active ? `AMOUNT: ${campaign.incentive_amount} RS` : \"NA\";\n  return login;\n}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

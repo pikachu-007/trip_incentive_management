@@ -19,7 +19,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "() => {\n\t\tlet data = Configuration.get()[EnvironmentSelectionMenu.selectedOptionValue]\n\t\tstoreValue(\"configuration\",data);\n\t\tnavigateTo(\"ListingPage\");\n\t}",
+      "body": "() => {\n  let data = Configuration.get()[EnvironmentSelectionMenu.selectedOptionValue];\n  storeValue(\"configuration\", data);\n  navigateTo(\"ListingPage\");\n}",
       "selfReferencingDataPaths": [],
       "jsArguments": [],
       "isAsync": true
@@ -35,7 +35,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "() => {\n\t\tlet data = Configuration.get()[EnvironmentSelectionMenu.selectedOptionValue]\n\t\tstoreValue(\"configuration\",data);\n\t\tnavigateTo(\"ListingPage\");\n\t}"
+      "() => {\n  let data = Configuration.get()[EnvironmentSelectionMenu.selectedOptionValue];\n  storeValue(\"configuration\", data);\n  navigateTo(\"ListingPage\");\n}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

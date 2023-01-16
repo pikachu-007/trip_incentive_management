@@ -19,7 +19,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "() =>{\n\t\tlet campaign = PayoutCampaignForm.formData.campaigns.fixed_percent_commission;\n\t\tlet cap_amount = typeof(campaign.cap_amount) == \"undefined\" ? \"NA\" : campaign.cap_amount \n\t\tlet fixed_commision_string =  campaign.active ? `COMMISSION: ${campaign.commission_fraction}%\t\t\t CAP_AMOUNT: ${cap_amount}` : \"NA\"\n\t\treturn fixed_commision_string\n\t}",
+      "body": "() => {\n  let campaign = PayoutCampaignForm.formData.campaigns.fixed_percent_commission;\n  let cap_amount = typeof campaign.cap_amount == \"undefined\" ? \"NA\" : campaign.cap_amount;\n  let fixed_commision_string = campaign.active ? `COMMISSION: ${campaign.commission_fraction}%\t\t\t CAP_AMOUNT: ${cap_amount}` : \"NA\";\n  return fixed_commision_string;\n}",
       "selfReferencingDataPaths": [],
       "jsArguments": [],
       "isAsync": false
@@ -34,7 +34,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "() =>{\n\t\tlet campaign = PayoutCampaignForm.formData.campaigns.fixed_percent_commission;\n\t\tlet cap_amount = typeof(campaign.cap_amount) == \"undefined\" ? \"NA\" : campaign.cap_amount \n\t\tlet fixed_commision_string =  campaign.active ? `COMMISSION: ${campaign.commission_fraction}%\t\t\t CAP_AMOUNT: ${cap_amount}` : \"NA\"\n\t\treturn fixed_commision_string\n\t}"
+      "() => {\n  let campaign = PayoutCampaignForm.formData.campaigns.fixed_percent_commission;\n  let cap_amount = typeof campaign.cap_amount == \"undefined\" ? \"NA\" : campaign.cap_amount;\n  let fixed_commision_string = campaign.active ? `COMMISSION: ${campaign.commission_fraction}%\t\t\t CAP_AMOUNT: ${cap_amount}` : \"NA\";\n  return fixed_commision_string;\n}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

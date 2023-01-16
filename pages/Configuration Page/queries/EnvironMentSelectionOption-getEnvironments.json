@@ -19,7 +19,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "() => {\n\t\treturn [\n\t\t\t{ \"label\": \"Production\",\"value\": \"production\"},\n\t\t\t{ \"label\": \"Staging-1\",\"value\": \"staging_1\"},\n\t\t\t{ \"label\": \"Staging-2\",\"value\": \"staging_2\"},\n\t\t\t{ \"label\": \"Staging-3\",\"value\": \"staging_3\"},\n\t\t\t{ \"label\": \"Development\",\"value\": \"development\"}\n\t\t]\n\t}",
+      "body": "() => {\n  return [{\n    \"label\": \"Production\",\n    \"value\": \"production\"\n  }, {\n    \"label\": \"Staging-1\",\n    \"value\": \"staging_1\"\n  }, {\n    \"label\": \"Staging-2\",\n    \"value\": \"staging_2\"\n  }, {\n    \"label\": \"Staging-3\",\n    \"value\": \"staging_3\"\n  }, {\n    \"label\": \"Development\",\n    \"value\": \"development\"\n  }];\n}",
       "selfReferencingDataPaths": [],
       "jsArguments": [],
       "isAsync": false
@@ -35,7 +35,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "() => {\n\t\treturn [\n\t\t\t{ \"label\": \"Production\",\"value\": \"production\"},\n\t\t\t{ \"label\": \"Staging-1\",\"value\": \"staging_1\"},\n\t\t\t{ \"label\": \"Staging-2\",\"value\": \"staging_2\"},\n\t\t\t{ \"label\": \"Staging-3\",\"value\": \"staging_3\"},\n\t\t\t{ \"label\": \"Development\",\"value\": \"development\"}\n\t\t]\n\t}"
+      "() => {\n  return [{\n    \"label\": \"Production\",\n    \"value\": \"production\"\n  }, {\n    \"label\": \"Staging-1\",\n    \"value\": \"staging_1\"\n  }, {\n    \"label\": \"Staging-2\",\n    \"value\": \"staging_2\"\n  }, {\n    \"label\": \"Staging-3\",\n    \"value\": \"staging_3\"\n  }, {\n    \"label\": \"Development\",\n    \"value\": \"development\"\n  }];\n}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
