@@ -20,6 +20,7 @@
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "() => {\n\t\treturn [\n\t\t\t{\n\t\t\t\t\"label\": \"MG\",\n\t\t\t\t\"value\": \"0\"\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"label\": \"FLEXI\",\n\t\t\t\t\"value\": \"1\"\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"label\": \"INSTI\",\n\t\t\t\t\"value\": \"2\"\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"label\": \"TRIP_BASED\",\n\t\t\t\t\"value\": \"3\"\n\t\t\t}\n\t\t]\n\t}",
+      "selfReferencingDataPaths": [],
       "jsArguments": [],
       "isAsync": false
     },

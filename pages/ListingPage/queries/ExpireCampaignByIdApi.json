@@ -37,6 +37,7 @@
       "body": "{{appsmith.store.expire_trip_based_campaign}}",
       "bodyFormData": [],
       "httpMethod": "POST",
+      "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
           "value": true

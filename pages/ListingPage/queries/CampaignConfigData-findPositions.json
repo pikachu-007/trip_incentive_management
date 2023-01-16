@@ -20,6 +20,7 @@
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "(arr) => {\n   const indicies = [];\n\t\tif(typeof arr == 'undefined' ||arr.length == 0){\n\t\t\treturn [];\n\t\t}\n   CampaignConfig.data.forEach((element, index) => {\n      if(arr.includes(element.id)){\n         indicies.push(index);\n      }\n   });\n   return indicies;\n\t}",
+      "selfReferencingDataPaths": [],
       "jsArguments": [
         {
           "name": "arr"

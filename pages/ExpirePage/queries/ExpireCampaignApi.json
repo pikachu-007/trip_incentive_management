@@ -37,6 +37,7 @@
       "body": "{{appsmith.store.expire_campaign_body}}",
       "bodyFormData": [],
       "httpMethod": "POST",
+      "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
           "value": true

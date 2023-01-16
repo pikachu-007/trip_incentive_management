@@ -20,6 +20,7 @@
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "() => {\n\t\tstoreValue(\"jwt\",undefined);\n\t\tnavigateTo(\"Login\");\n\t}",
+      "selfReferencingDataPaths": [],
       "jsArguments": [],
       "isAsync": true
     },

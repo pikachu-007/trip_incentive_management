@@ -20,6 +20,7 @@
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "() => {\n\t\treturn [\n\t\t\t\t{\n\t\t\t\t\t\"label\": \"INCENTIVE\", \n\t\t\t\t\t\"value\": \"0\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"label\": \"ADJUSTMENT\", \n\t\t\t\t\t\"value\": \"1\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"label\": \"EARNING\", \n\t\t\t\t\t\"value\": \"3\"\n\t\t\t\t}\n\t\t\t]\n\t}",
+      "selfReferencingDataPaths": [],
       "jsArguments": [],
       "isAsync": false
     },

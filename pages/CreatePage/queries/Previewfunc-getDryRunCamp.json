@@ -20,6 +20,7 @@
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "() =>{\n\t\tlet campaign = PayoutCampaignForm.formData.campaigns.dryrun;\n\t\tlet dry_run_string =  campaign.active ? `MIN_KM: ${campaign.min_kms} \t\t\tPER_KM_RATE: ${campaign.per_km_rate} RS\t\t\t INCV_KM_CAP: ${campaign.incv_km_cap}` : \"NA\"\n\t\treturn dry_run_string\n\t}",
+      "selfReferencingDataPaths": [],
       "jsArguments": [],
       "isAsync": false
     },

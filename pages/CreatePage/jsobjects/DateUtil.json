@@ -7,7 +7,8 @@
     "actions": [],
     "archivedActions": [],
     "body": "export default {\n\t\n\tgetTomorrowDate: () => {\n\t\tlet today = new Date();\n\t\tlet tomorrow = new Date();\n\t\ttomorrow.setDate(today.getDate() + 1);\n\t\treturn tomorrow\n\t},\n\t\n\tmyFun2: async () => {\n\t\t//use async-await or promises\n\t}\n}",
-    "variables": []
+    "variables": [],
+    "userPermissions": []
   },
   "id": "CreatePage_DateUtil",
   "deleted": false,

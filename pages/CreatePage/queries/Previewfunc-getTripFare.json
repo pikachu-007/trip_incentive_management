@@ -20,6 +20,7 @@
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "() =>{\n\t\tlet campaign = PayoutCampaignForm.formData.campaigns.trip_fare;\n\t\tlet trip_fare_string =  campaign.active ? \"Acitve for City Launch\" : \"NA\"\n\t\treturn trip_fare_string\n\t}",
+      "selfReferencingDataPaths": [],
       "jsArguments": [],
       "isAsync": false
     },

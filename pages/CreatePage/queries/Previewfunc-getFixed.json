@@ -20,6 +20,7 @@
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "() =>{\n\t\tlet campaign = PayoutCampaignForm.formData.campaigns.fixed_percent_commission;\n\t\tlet cap_amount = typeof(campaign.cap_amount) == \"undefined\" ? \"NA\" : campaign.cap_amount \n\t\tlet fixed_commision_string =  campaign.active ? `COMMISSION: ${campaign.commission_fraction}%\t\t\t CAP_AMOUNT: ${cap_amount}` : \"NA\"\n\t\treturn fixed_commision_string\n\t}",
+      "selfReferencingDataPaths": [],
       "jsArguments": [],
       "isAsync": false
     },

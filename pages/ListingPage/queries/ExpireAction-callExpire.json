@@ -20,6 +20,7 @@
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "(current_row) => {\n\t\tstoreValue(\"expired_campaign_row\",current_row);\n\t\tshowModal('expire_modal');\n\t}",
+      "selfReferencingDataPaths": [],
       "jsArguments": [
         {
           "name": "current_row"

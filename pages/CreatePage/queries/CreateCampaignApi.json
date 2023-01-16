@@ -37,6 +37,7 @@
       "body": "{{appsmith.store.campaign_body}}\n",
       "bodyFormData": [],
       "httpMethod": "POST",
+      "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
           "value": true

@@ -7,7 +7,8 @@
     "actions": [],
     "archivedActions": [],
     "body": "export default {\n\t\n\tgetId: () => {\n\t\tlet data = ExpireModalFunc.getCurrentRow();\n\t\treturn data.id\n\t},\n\tgetStartDate: () => {\n\t\tlet data = ExpireModalFunc.getCurrentRow();\n\t\treturn data.start_date\n\t},\n\tgetEndDate: () => {\n\t\tlet data = ExpireModalFunc.getCurrentRow()\n\t\treturn data.end_date\n\t},\n\tgetCurrentRow: () => {\n\t\treturn appsmith.store.expired_campaign_row;\n\t},\n\texpire: () =>{\n\t\tlet raw_data = ExpireModalFunc.getCurrentRow();\n\t\tlet data = {};\n\t\tdata['campaigns'] = [{\n        \"campaign_type\": \"TRIP_BASED_INCENTIVE\"\n      } ];\n\t\tdata['city_id'] = raw_data.geo_region_id;\n\t\tPayoutCampaignTable.selectedRow.vehicles[0]\n\t\tdata['vehicle_id'] = raw_data.vehicles[0];\n\t\tdata['payout_campaign_id'] = raw_data.payout_campaign_id;\n\t\tdata['expiry_date'] = ExpireModalFunc.getTodayDate(); \n\t\t\n\t\tstoreValue(\"expire_trip_based_campaign\",data);\n\t\tExpireCampaignByIdApi.run(\n    // On success\n    ()=>{\n      showAlert(\"Campaign  Expired successfully\");\n\t\t\tCampaignConfig.run();\n\t\t\tcloseModal('expire_modal');\n\n    },\n    // On error\n    ()=>{\n      showAlert(\"Something went wrong\");\n    });\n\t},\n\tgetTodayDate: ()=>{\n\t\tlet today = new Date().toISOString().slice(0, 10)\n\t\treturn today;\n\t},\n\tgetCityName: () =>{\n\t\tlet data = ExpireModalFunc.getCurrentRow()\n\t\treturn data.city;\n\t},\n\tgetVehicle: () =>{\n\t\tlet data = ExpireModalFunc.getCurrentRow()\n\t\treturn data.vehicles_name[0]\n\t},\n\tgetTest: ()=>{\n\t\treturn appsmith.store.configuration.vp_host;\n\t}\n\t\n\t\n}",
-    "variables": []
+    "variables": [],
+    "userPermissions": []
   },
   "id": "ListingPage_ExpireModalFunc",
   "deleted": false,

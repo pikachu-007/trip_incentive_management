@@ -20,6 +20,7 @@
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "() =>{\n\t\treturn  PayoutCampaignForm.formData.campaign_end_date.split(\"T\")[0] + \" 23:59\"\n\t}",
+      "selfReferencingDataPaths": [],
       "jsArguments": [],
       "isAsync": false
     },

@@ -7,7 +7,8 @@
     "actions": [],
     "archivedActions": [],
     "body": "export default {\n\t\n\tpreview: () => {\n\t\t\tshowModal(\"preview_modal\");\n\t},\n\ttrip_based_preview: () => {\n\t\tstoreValue(\"driver_id_files\",driver_file.files[0].data);\n\t\tshowModal(\"preview_modal\");\n\t}\n}",
-    "variables": []
+    "variables": [],
+    "userPermissions": []
   },
   "id": "CreatePage_PreviewCall",
   "deleted": false,

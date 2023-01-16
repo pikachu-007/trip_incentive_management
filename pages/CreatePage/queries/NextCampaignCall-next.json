@@ -20,6 +20,7 @@
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "() => {\n\t\t\n\t\tlet formDataValue = PayoutCampaignForm.formData;\n\t\tstoreValue(\"driver_id_files\",undefined);\n\t\tstoreValue(\"not_elig_driver_data\",undefined);\n\t\tstoreValue(\"valid_fixed_campaign_msg\", undefined);\n\t\tif(!CampaignValidation.is_valid()){\n\t\t\tlet message = appsmith.store.valid_fixed_campaign_msg;\n\t\t\tshowAlert(message);\n\t\t}\n\t\telse if(formDataValue.campaigns.trip_based_incentive.active){\n\t\t\tshowModal(\"fileupload\");\n\t\t}\n\t\telse{\n\t\t\tPreviewCall.preview();\n\t\t}\n\t\t\n\t}",
+      "selfReferencingDataPaths": [],
       "jsArguments": [],
       "isAsync": true
     },

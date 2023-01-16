@@ -7,7 +7,8 @@
     "actions": [],
     "archivedActions": [],
     "body": "export default {\n\tlogout: () => {\n\t\tstoreValue(\"jwt\",undefined);\n\t\tnavigateTo(\"Login\");\n\t}\n}",
-    "variables": []
+    "variables": [],
+    "userPermissions": []
   },
   "id": "CreatePage_LogoutCall",
   "deleted": false,

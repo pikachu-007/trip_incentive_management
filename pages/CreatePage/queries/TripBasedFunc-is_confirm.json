@@ -20,6 +20,7 @@
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "()=>{\n\t\tlet is_trip_based = PayoutCampaignForm.formData.campaigns.trip_based_incentive.active;\n\t\tlet not_elig_driver_data = appsmith.store.not_elig_driver_data;\n\t\tlet duplicates = appsmith.store.duplicate_elements;\n\t\tif( is_trip_based &&(typeof(not_elig_driver_data) == \"undefined\" || not_elig_driver_data.length !=0 || duplicates.length !=0) )\n\t\t\t return true;\n\t\telse{\n\t\t\t  return false;\n\t\t}\n\t}",
+      "selfReferencingDataPaths": [],
       "jsArguments": [],
       "isAsync": false
     },

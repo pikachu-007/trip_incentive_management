@@ -20,6 +20,7 @@
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "() => {\n\t\treturn \"Authenticated\"//appsmith.store.jwt? \"Authenticated\" : \"Unauthenticated\" \n\t}",
+      "selfReferencingDataPaths": [],
       "jsArguments": [],
       "isAsync": false
     },

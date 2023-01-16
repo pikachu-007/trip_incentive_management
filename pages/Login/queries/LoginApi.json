@@ -23,6 +23,7 @@
       "queryParameters": [],
       "body": "{ \n\t\"user\": {\n\t\t\"email\": \"{{Input1.text.concat(\"@porter.com\")}}\",\n\t\t\"password\": \"{{Input2.text}}\" \n\t} \n}",
       "httpMethod": "POST",
+      "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
           "value": true

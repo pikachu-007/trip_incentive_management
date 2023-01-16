@@ -20,6 +20,7 @@
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "() => {\n\t\treturn {\n\t\t\t\"staging_1\": {\"name\": \"Staging 1\", \"vp_host\": \"vp-staging-1.porter.in\" ,\"auth_token\": \"b87b21504d41c2343a1a2849e45e9547\"},\n\t\t\t\"staging_2\": {\"name\": \"Staging 2\", \"vp_host\": \"vp-staging-2.porter.in\" ,\"auth_token\": \"b87b21504d41c2343a1a2849e45e9547\"},\n\t\t\t\"staging_3\": {\"name\": \"Staging 3\", \"vp_host\": \"vp-staging-3.porter.in\" ,\"auth_token\": \"b87b21504d41c2343a1a2849e45e9547\"},\n\t\t\t\"production\": {\"name\": \"Production\", \"vp_host\": \"vp-prod.porter.in\" ,\"auth_token\": \"10052ec6f81d05ff29bc73114ed2f6df\"},\n\t\t\t\"development\": {\"name\": \"Development\", \"vp_host\": \"08c8-49-249-50-6.in.ngrok.io\", \"auth_token\": \"123abc123def123ghi\"}\n\t\t}\n\t}",
+      "selfReferencingDataPaths": [],
       "jsArguments": [],
       "isAsync": false
     },

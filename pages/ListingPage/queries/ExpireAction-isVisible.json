@@ -20,6 +20,7 @@
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "(type,status) => {\n\t\tif(status == 'Future' && type == 'TRIP_BASED_INCENTIVE'){\n\t\t\treturn true;\n\t\t}\n\t\telse{\n\t\t\treturn false;\n\t\t}\n\t}",
+      "selfReferencingDataPaths": [],
       "jsArguments": [
         {
           "name": "type"

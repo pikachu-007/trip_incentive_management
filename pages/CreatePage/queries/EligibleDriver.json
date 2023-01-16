@@ -19,6 +19,7 @@
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "select id from drivers {{ typeof(this.params.result_ids) != 'undefined' ? `where (geo_region_id = ${this.params.city_id} and vehicle_id = ${this.params.vehicle_id} ) and id = ANY('${ '{' + this.params.result_ids + '}' }') limit 5000;` : ' limit 0'\n\n}}",
+      "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
           "value": false

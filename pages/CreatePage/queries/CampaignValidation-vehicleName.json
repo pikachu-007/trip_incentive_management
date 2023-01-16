@@ -20,6 +20,7 @@
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "() => {\n\t\tlet vehicle_id = PayoutCampaignForm.formData.vehicle_id;\n\t\tif(typeof(vehicle_id) == \"undefined\" || vehicle_id == \"\"){\n\t\t\treturn \"\";\n\t\t}\n\t\telse{\n\t\t\tlet vehicle_data = VehicleSelectionList.data;\n\t\t\tlet vehicle = vehicle_data.filter(function(vehicle){\n\t\t\t\treturn vehicle.value == vehicle_id;\n\t\t\t})[0];\n\t\t\treturn vehicle.label;\n\t\t}\n\t}",
+      "selfReferencingDataPaths": [],
       "jsArguments": [],
       "isAsync": false
     },

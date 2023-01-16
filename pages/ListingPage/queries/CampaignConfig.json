@@ -19,6 +19,7 @@
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "\nSELECT \npct.id,\npca.id as payout_campaign_id,\ncc.id as campaign_config_id,\ncc.geo_region_id,\npct.vehicle_ids Vehicles,\npct.driver_vehicle_ids driver_vehicles,\npco.\"type\",\nCASE\n    WHEN cc.period @> (SELECT CURRENT_DATE) THEN 'Active'\n    WHEN lower(cc.period) <  (SELECT CURRENT_DATE) THEN 'Expired'\n\t\tELSE 'Future'\nEND AS status,\ncc.period Period, \n(lower(cc.period) + interval '0 minute')::timestamp Start_Date,\n(upper(cc.period) - interval '1 second')::timestamp End_Date,\npco.commission_fraction as Commission,\npco.cap_amount as Cap_Amount,\npco.min_kms as Min_Kms,\npco.incv_km_cap as INCV_KM_CAP,\npco.per_km_rate as PER_KM_RATE,\npco.payout_params as PAYOUT,\npco.max_abrtg_count as MAX_ABRTG,\npco.max_missed_order_count as MAX_MISSED_ORDER\nFROM vp.payout_campaigns pca\nINNER JOIN vp.payout_configs pco ON pco.payout_campaign_id = pca.id\nINNER JOIN vp.payout_campaign_targets pct ON pct.payout_campaign_id = pca.id\nINNER JOIN vp.payout_cam_cam_config_joins pj ON pj.payout_campaign_id = pca.id\nINNER JOIN vp.campaign_configs cc ON pj.campaign_config_id = cc.id\nwhere cc.geo_region_id = pct.city_id\n--where cc.period @> (SELECT CURRENT_DATE + 1)\norder by pco.updated_at desc;",
+      "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
           "value": true
