@@ -19,7 +19,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "() => {\n\t\tlet data = ExpireModalFunc.getCurrentRow();\n\t\treturn data.id\n\t}",
+      "body": "() => {\n  let data = ExpireModalFunc.getCurrentRow();\n  return data.id;\n}",
       "selfReferencingDataPaths": [],
       "jsArguments": [],
       "isAsync": false
@@ -35,7 +35,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "() => {\n\t\tlet data = ExpireModalFunc.getCurrentRow();\n\t\treturn data.id\n\t}"
+      "() => {\n  let data = ExpireModalFunc.getCurrentRow();\n  return data.id;\n}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

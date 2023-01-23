@@ -19,7 +19,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "()=>{\n\t\treturn appsmith.store.configuration.vp_host;\n\t}",
+      "body": "() => {\n  return appsmith.store.configuration.vp_host;\n}",
       "selfReferencingDataPaths": [],
       "jsArguments": [],
       "isAsync": false
@@ -34,7 +34,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "()=>{\n\t\treturn appsmith.store.configuration.vp_host;\n\t}"
+      "() => {\n  return appsmith.store.configuration.vp_host;\n}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

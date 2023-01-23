@@ -19,7 +19,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "() =>{\n\t\tlet raw_data = ExpireModalFunc.getCurrentRow();\n\t\tlet data = {};\n\t\tdata['campaigns'] = [{\n        \"campaign_type\": \"TRIP_BASED_INCENTIVE\"\n      } ];\n\t\tdata['city_id'] = raw_data.geo_region_id;\n\t\tPayoutCampaignTable.selectedRow.vehicles[0]\n\t\tdata['vehicle_id'] = raw_data.vehicles[0];\n\t\tdata['payout_campaign_id'] = raw_data.payout_campaign_id;\n\t\tdata['expiry_date'] = ExpireModalFunc.getTodayDate(); \n\t\t\n\t\tstoreValue(\"expire_trip_based_campaign\",data);\n\t\tExpireCampaignByIdApi.run(\n    // On success\n    ()=>{\n      showAlert(\"Campaign  Expired successfully\");\n\t\t\tCampaignConfig.run();\n\t\t\tcloseModal('expire_modal');\n\n    },\n    // On error\n    ()=>{\n      showAlert(\"Something went wrong\");\n    });\n\t}",
+      "body": "() => {\n  let raw_data = ExpireModalFunc.getCurrentRow();\n  let data = {};\n  data['campaigns'] = [{\n    \"campaign_type\": \"TRIP_BASED_INCENTIVE\"\n  }];\n  data['city_id'] = raw_data.geo_region_id;\n  PayoutCampaignTable.selectedRow.vehicles[0];\n  data['vehicle_id'] = raw_data.vehicles[0];\n  data['payout_campaign_id'] = raw_data.payout_campaign_id;\n  data['expiry_date'] = ExpireModalFunc.getTodayDate();\n  storeValue(\"expire_trip_based_campaign\", data);\n  ExpireCampaignByIdApi.run(() => {\n    showAlert(\"Campaign  Expired successfully\");\n    CampaignConfig.run();\n    closeModal('expire_modal');\n  }, () => {\n    showAlert(\"Something went wrong\");\n  });\n}",
       "selfReferencingDataPaths": [],
       "jsArguments": [],
       "isAsync": false
@@ -34,7 +34,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "() =>{\n\t\tlet raw_data = ExpireModalFunc.getCurrentRow();\n\t\tlet data = {};\n\t\tdata['campaigns'] = [{\n        \"campaign_type\": \"TRIP_BASED_INCENTIVE\"\n      } ];\n\t\tdata['city_id'] = raw_data.geo_region_id;\n\t\tPayoutCampaignTable.selectedRow.vehicles[0]\n\t\tdata['vehicle_id'] = raw_data.vehicles[0];\n\t\tdata['payout_campaign_id'] = raw_data.payout_campaign_id;\n\t\tdata['expiry_date'] = ExpireModalFunc.getTodayDate(); \n\t\t\n\t\tstoreValue(\"expire_trip_based_campaign\",data);\n\t\tExpireCampaignByIdApi.run(\n    // On success\n    ()=>{\n      showAlert(\"Campaign  Expired successfully\");\n\t\t\tCampaignConfig.run();\n\t\t\tcloseModal('expire_modal');\n\n    },\n    // On error\n    ()=>{\n      showAlert(\"Something went wrong\");\n    });\n\t}"
+      "() => {\n  let raw_data = ExpireModalFunc.getCurrentRow();\n  let data = {};\n  data['campaigns'] = [{\n    \"campaign_type\": \"TRIP_BASED_INCENTIVE\"\n  }];\n  data['city_id'] = raw_data.geo_region_id;\n  PayoutCampaignTable.selectedRow.vehicles[0];\n  data['vehicle_id'] = raw_data.vehicles[0];\n  data['payout_campaign_id'] = raw_data.payout_campaign_id;\n  data['expiry_date'] = ExpireModalFunc.getTodayDate();\n  storeValue(\"expire_trip_based_campaign\", data);\n  ExpireCampaignByIdApi.run(() => {\n    showAlert(\"Campaign  Expired successfully\");\n    CampaignConfig.run();\n    closeModal('expire_modal');\n  }, () => {\n    showAlert(\"Something went wrong\");\n  });\n}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

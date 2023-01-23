@@ -19,12 +19,10 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "(current_row) => {\n\t\tstoreValue(\"expired_campaign_row\",current_row);\n\t\tshowModal('expire_modal');\n\t}",
+      "body": "current_row => {\n  storeValue(\"expired_campaign_row\", current_row);\n  showModal('expire_modal');\n}",
       "selfReferencingDataPaths": [],
       "jsArguments": [
-        {
-          "name": "current_row"
-        }
+        {}
       ],
       "isAsync": true
     },
@@ -38,7 +36,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "(current_row) => {\n\t\tstoreValue(\"expired_campaign_row\",current_row);\n\t\tshowModal('expire_modal');\n\t}"
+      "current_row => {\n  storeValue(\"expired_campaign_row\", current_row);\n  showModal('expire_modal');\n}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

@@ -19,12 +19,10 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "(arr) => {\n   const indicies = [];\n\t\tif(typeof arr == 'undefined' ||arr.length == 0){\n\t\t\treturn [];\n\t\t}\n   CampaignConfig.data.forEach((element, index) => {\n      if(arr.includes(element.id)){\n         indicies.push(index);\n      }\n   });\n   return indicies;\n\t}",
+      "body": "arr => {\n  const indicies = [];\n  if (typeof arr == 'undefined' || arr.length == 0) {\n    return [];\n  }\n  CampaignConfig.data.forEach((element, index) => {\n    if (arr.includes(element.id)) {\n      indicies.push(index);\n    }\n  });\n  return indicies;\n}",
       "selfReferencingDataPaths": [],
       "jsArguments": [
-        {
-          "name": "arr"
-        }
+        {}
       ],
       "isAsync": false
     },
@@ -38,7 +36,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "(arr) => {\n   const indicies = [];\n\t\tif(typeof arr == 'undefined' ||arr.length == 0){\n\t\t\treturn [];\n\t\t}\n   CampaignConfig.data.forEach((element, index) => {\n      if(arr.includes(element.id)){\n         indicies.push(index);\n      }\n   });\n   return indicies;\n\t}"
+      "arr => {\n  const indicies = [];\n  if (typeof arr == 'undefined' || arr.length == 0) {\n    return [];\n  }\n  CampaignConfig.data.forEach((element, index) => {\n    if (arr.includes(element.id)) {\n      indicies.push(index);\n    }\n  });\n  return indicies;\n}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

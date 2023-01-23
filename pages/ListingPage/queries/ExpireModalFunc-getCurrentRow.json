@@ -19,7 +19,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "() => {\n\t\treturn appsmith.store.expired_campaign_row;\n\t}",
+      "body": "() => {\n  return appsmith.store.expired_campaign_row;\n}",
       "selfReferencingDataPaths": [],
       "jsArguments": [],
       "isAsync": false
@@ -34,7 +34,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "() => {\n\t\treturn appsmith.store.expired_campaign_row;\n\t}"
+      "() => {\n  return appsmith.store.expired_campaign_row;\n}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

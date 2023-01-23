@@ -19,15 +19,11 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "(type,status) => {\n\t\tif(status == 'Future' && type == 'TRIP_BASED_INCENTIVE'){\n\t\t\treturn true;\n\t\t}\n\t\telse{\n\t\t\treturn false;\n\t\t}\n\t}",
+      "body": "(type, status) => {\n  if (status == 'Future' && type == 'TRIP_BASED_INCENTIVE') {\n    return true;\n  } else {\n    return false;\n  }\n}",
       "selfReferencingDataPaths": [],
       "jsArguments": [
-        {
-          "name": "type"
-        },
-        {
-          "name": "status"
-        }
+        {},
+        {}
       ],
       "isAsync": false
     },
@@ -42,7 +38,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "(type,status) => {\n\t\tif(status == 'Future' && type == 'TRIP_BASED_INCENTIVE'){\n\t\t\treturn true;\n\t\t}\n\t\telse{\n\t\t\treturn false;\n\t\t}\n\t}"
+      "(type, status) => {\n  if (status == 'Future' && type == 'TRIP_BASED_INCENTIVE') {\n    return true;\n  } else {\n    return false;\n  }\n}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
