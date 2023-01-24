@@ -1,0 +1,16 @@
+{
+  "unpublishedCollection": {
+    "name": "ExpireAction",
+    "pageId": "ListingPage",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\t\n\tisVisible: (type,status) => {\n\t\tif(status == 'Future' && type == 'TRIP_BASED_INCENTIVE'){\n\t\t\treturn true;\n\t\t}\n\t\telse{\n\t\t\treturn false;\n\t\t}\n\t},\n\tcallExpire: (current_row) => {\n\t\tstoreValue(\"expired_campaign_row\",current_row);\n\t\tshowModal('expire_modal');\n\t},\n\n}",
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "ListingPage_ExpireAction",
+  "deleted": false,
+  "gitSyncId": "62beac9f435d8712d96d75d8_634e6facc776a5220eb0eae2"
+}

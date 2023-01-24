@@ -1,0 +1,16 @@
+{
+  "unpublishedCollection": {
+    "name": "PreviewCall",
+    "pageId": "CreatePage",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\t\n\tpreview: () => {\n\t\t\tshowModal(\"preview_modal\");\n\t},\n\ttrip_based_preview: () => {\n\t\tstoreValue(\"driver_id_files\",driver_file.files[0].data);\n\t\tshowModal(\"preview_modal\");\n\t}\n}",
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "CreatePage_PreviewCall",
+  "deleted": false,
+  "gitSyncId": "62beac9f435d8712d96d75d8_63359563c776a5220eb0e361"
+}

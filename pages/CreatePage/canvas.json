@@ -1,0 +1,3533 @@
+{
+  "unpublishedPage": {
+    "name": "CreatePage",
+    "slug": "createpage",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 816,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 700,
+          "containerStyle": "none",
+          "snapRows": 59,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 71,
+          "minHeight": 600,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "children": [
+            {
+              "boxShadow": "none",
+              "widgetName": "CreatePageContainer",
+              "isCanvas": true,
+              "dynamicPropertyPathList": [
+                {
+                  "key": "isVisible"
+                }
+              ],
+              "displayName": "Tabs",
+              "iconSVG": "/static/media/icon.74a6d653.svg",
+              "topRow": 6,
+              "bottomRow": 68,
+              "parentRowSpace": 10,
+              "type": "TABS_WIDGET",
+              "hideCard": false,
+              "shouldScrollContents": false,
+              "animateLoading": true,
+              "parentColumnSpace": 12.5625,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 5,
+              "dynamicBindingPathList": [
+                {
+                  "key": "defaultTab"
+                }
+              ],
+              "children": [
+                {
+                  "tabId": "tab1",
+                  "boxShadow": "none",
+                  "widgetName": "Canvas1",
+                  "displayName": "Canvas",
+                  "topRow": 0,
+                  "bottomRow": 550,
+                  "parentRowSpace": 1,
+                  "type": "CANVAS_WIDGET",
+                  "canExtend": true,
+                  "hideCard": true,
+                  "shouldScrollContents": false,
+                  "minHeight": 400,
+                  "parentColumnSpace": 1,
+                  "dynamicTriggerPathList": [],
+                  "leftColumn": 0,
+                  "dynamicBindingPathList": [],
+                  "children": [
+                    {
+                      "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
+                      "widgetName": "IconButton4",
+                      "onClick": "{{navigateTo('https://appsmith.porter.in/applications', {})}}",
+                      "buttonColor": "#f6f7f8",
+                      "displayName": "Icon Button",
+                      "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
+                      "searchTags": [
+                        "click",
+                        "submit"
+                      ],
+                      "topRow": 2,
+                      "bottomRow": 6,
+                      "parentRowSpace": 10,
+                      "type": "ICON_BUTTON_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 9.89453125,
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
+                      "leftColumn": 3,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "isDisabled": false,
+                      "key": "1vk4wwj0kb",
+                      "isDeprecated": false,
+                      "rightColumn": 7,
+                      "iconName": "new-grid-item",
+                      "widgetId": "bgy17gzhj1",
+                      "isVisible": true,
+                      "version": 1,
+                      "parentId": "qtimltgqwu",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "buttonVariant": "PRIMARY"
+                    },
+                    {
+                      "boxShadow": "0px 1px 3px #2E3D49",
+                      "widgetName": "Logout",
+                      "onClick": "{{LogoutCall.logout()}}",
+                      "buttonColor": "#F6F7F8",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "boxShadow"
+                        }
+                      ],
+                      "displayName": "Icon Button",
+                      "iconSVG": "/static/media/icon.1a0c634a.svg",
+                      "topRow": 2,
+                      "bottomRow": 6,
+                      "parentRowSpace": 10,
+                      "type": "ICON_BUTTON_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 10.287109375,
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
+                      "leftColumn": 56,
+                      "dynamicBindingPathList": [],
+                      "isDisabled": true,
+                      "key": "xwgk8ehwmh",
+                      "labelTextSize": "0.875rem",
+                      "rightColumn": 60,
+                      "iconName": "power",
+                      "widgetId": "3sowz8irh7",
+                      "isVisible": false,
+                      "version": 1,
+                      "parentId": "qtimltgqwu",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "0.375rem",
+                      "buttonVariant": "PRIMARY",
+                      "boxShadowColor": "#2E3D49"
+                    },
+                    {
+                      "boxShadow": "0px 1px 3px #2E3D49",
+                      "widgetName": "Home",
+                      "onClick": "{{navigateTo('ListingPage', {})}}",
+                      "buttonColor": "#F6F7F8",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "boxShadow"
+                        }
+                      ],
+                      "displayName": "Icon Button",
+                      "iconSVG": "/static/media/icon.1a0c634a.svg",
+                      "topRow": 2,
+                      "bottomRow": 6,
+                      "parentRowSpace": 10,
+                      "type": "ICON_BUTTON_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 10.287109375,
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
+                      "leftColumn": 7,
+                      "dynamicBindingPathList": [],
+                      "isDisabled": false,
+                      "key": "u58bn9i0jk",
+                      "labelTextSize": "0.875rem",
+                      "rightColumn": 11,
+                      "iconName": "home",
+                      "widgetId": "xatiy7q850",
+                      "isVisible": true,
+                      "version": 1,
+                      "parentId": "qtimltgqwu",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "0.375rem",
+                      "buttonVariant": "PRIMARY",
+                      "boxShadowColor": "#2E3D49"
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "Divider1",
+                      "thickness": 2,
+                      "displayName": "Divider",
+                      "iconSVG": "/static/media/icon.cbe8f608.svg",
+                      "topRow": 6,
+                      "bottomRow": 10,
+                      "parentRowSpace": 10,
+                      "type": "DIVIDER_WIDGET",
+                      "capType": "nc",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 10.287109375,
+                      "leftColumn": 3,
+                      "dynamicBindingPathList": [],
+                      "key": "l0xc46s7no",
+                      "dividerColor": "#EBEBEB",
+                      "labelTextSize": "0.875rem",
+                      "orientation": "horizontal",
+                      "strokeStyle": "solid",
+                      "rightColumn": 61,
+                      "widgetId": "bb3cpqbhbi",
+                      "capSide": 0,
+                      "isVisible": true,
+                      "version": 1,
+                      "parentId": "qtimltgqwu",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "0px"
+                    },
+                    {
+                      "schema": {
+                        "__root_schema__": {
+                          "children": {
+                            "city": {
+                              "children": {},
+                              "dataType": "string",
+                              "defaultValue": "",
+                              "fieldType": "Select",
+                              "sourceData": "",
+                              "isCustomField": false,
+                              "accessor": "city_id",
+                              "identifier": "city",
+                              "position": 0,
+                              "originalIdentifier": "city",
+                              "isDisabled": false,
+                              "isFilterable": true,
+                              "isRequired": true,
+                              "isVisible": true,
+                              "label": "City",
+                              "serverSideFiltering": false,
+                              "options": "{{GeoRegionsSelect.data}}",
+                              "labelTextSize": "0.875rem",
+                              "borderRadius": "0px",
+                              "cellBorderRadius": "0px",
+                              "boxShadow": "none",
+                              "cellBoxShadow": "none",
+                              "accentColor": "#03B365",
+                              "placeholderText": "{{((sourceData, formData, fieldState) => (`Select a City`))(PayoutCampaignForm.sourceData, PayoutCampaignForm.formData, PayoutCampaignForm.fieldState)}}"
+                            },
+                            "campaigns": {
+                              "children": {
+                                "login_incentive": {
+                                  "children": {
+                                    "active": {
+                                      "children": {},
+                                      "dataType": "boolean",
+                                      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.campaigns.login_incentive.active))(PayoutCampaignForm.sourceData, PayoutCampaignForm.formData, PayoutCampaignForm.fieldState)}}",
+                                      "fieldType": "Switch",
+                                      "sourceData": false,
+                                      "isCustomField": false,
+                                      "accessor": "active",
+                                      "identifier": "active",
+                                      "position": 0,
+                                      "originalIdentifier": "active",
+                                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                                      "boxShadow": "none",
+                                      "alignWidget": "LEFT",
+                                      "isDisabled": false,
+                                      "isRequired": false,
+                                      "isVisible": true,
+                                      "labelTextSize": "0.875rem",
+                                      "label": "Active"
+                                    },
+                                    "incentive_amount": {
+                                      "children": {},
+                                      "dataType": "number",
+                                      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.campaigns.login_incentive.incentive_amount))(PayoutCampaignForm.sourceData, PayoutCampaignForm.formData, PayoutCampaignForm.fieldState)}}",
+                                      "fieldType": "Number Input",
+                                      "sourceData": 200,
+                                      "isCustomField": false,
+                                      "accessor": "incentive_amount",
+                                      "identifier": "incentive_amount",
+                                      "position": 1,
+                                      "originalIdentifier": "incentive_amount",
+                                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                                      "boxShadow": "none",
+                                      "iconAlign": "left",
+                                      "isDisabled": false,
+                                      "isRequired": "{{((sourceData, formData, fieldState) => (formData.campaigns.login_incentive.active))(PayoutCampaignForm.sourceData, PayoutCampaignForm.formData, PayoutCampaignForm.fieldState)}}",
+                                      "isSpellCheck": false,
+                                      "isVisible": "{{((sourceData, formData, fieldState) => (formData.campaigns.login_incentive.active))(PayoutCampaignForm.sourceData, PayoutCampaignForm.formData, PayoutCampaignForm.fieldState)}}",
+                                      "labelTextSize": "0.875rem",
+                                      "label": "Incentive Amount (₹)",
+                                      "maxNum": "1000",
+                                      "minNum": "1",
+                                      "tooltip": "{{((sourceData, formData, fieldState) => (`Value must be less than 1000`))(PayoutCampaignForm.sourceData, PayoutCampaignForm.formData, PayoutCampaignForm.fieldState)}}"
+                                    },
+                                    "customField1": {
+                                      "children": {},
+                                      "dataType": "number",
+                                      "defaultValue": "0",
+                                      "fieldType": "Number Input",
+                                      "sourceData": 0,
+                                      "isCustomField": true,
+                                      "accessor": "max_fraud_count",
+                                      "identifier": "customField1",
+                                      "position": 2,
+                                      "originalIdentifier": "customField1",
+                                      "accentColor": "{{((sourceData, formData, fieldState) => (appsmith.theme.colors.primaryColor))(PayoutCampaignForm.sourceData, PayoutCampaignForm.formData, PayoutCampaignForm.fieldState)}}",
+                                      "borderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(PayoutCampaignForm.sourceData, PayoutCampaignForm.formData, PayoutCampaignForm.fieldState)}}",
+                                      "boxShadow": "none",
+                                      "iconAlign": "left",
+                                      "isDisabled": false,
+                                      "isRequired": "{{((sourceData, formData, fieldState) => (formData.campaigns.login_incentive.active))(PayoutCampaignForm.sourceData, PayoutCampaignForm.formData, PayoutCampaignForm.fieldState)}}",
+                                      "isSpellCheck": false,
+                                      "isVisible": "{{((sourceData, formData, fieldState) => (formData.campaigns.login_incentive.active))(PayoutCampaignForm.sourceData, PayoutCampaignForm.formData, PayoutCampaignForm.fieldState)}}",
+                                      "labelTextSize": "0.875rem",
+                                      "label": "Max fraud count",
+                                      "minNum": "0"
+                                    },
+                                    "customField2": {
+                                      "children": {},
+                                      "dataType": "number",
+                                      "defaultValue": 0,
+                                      "fieldType": "Number Input",
+                                      "sourceData": 0,
+                                      "isCustomField": true,
+                                      "accessor": "max_abrtg_count",
+                                      "identifier": "customField2",
+                                      "position": 3,
+                                      "originalIdentifier": "customField2",
+                                      "accentColor": "{{((sourceData, formData, fieldState) => (appsmith.theme.colors.primaryColor))(PayoutCampaignForm.sourceData, PayoutCampaignForm.formData, PayoutCampaignForm.fieldState)}}",
+                                      "borderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(PayoutCampaignForm.sourceData, PayoutCampaignForm.formData, PayoutCampaignForm.fieldState)}}",
+                                      "boxShadow": "none",
+                                      "iconAlign": "left",
+                                      "isDisabled": false,
+                                      "isRequired": "{{((sourceData, formData, fieldState) => (formData.campaigns.login_incentive.active))(PayoutCampaignForm.sourceData, PayoutCampaignForm.formData, PayoutCampaignForm.fieldState)}}",
+                                      "isSpellCheck": false,
+                                      "isVisible": "{{((sourceData, formData, fieldState) => (formData.campaigns.login_incentive.active))(PayoutCampaignForm.sourceData, PayoutCampaignForm.formData, PayoutCampaignForm.fieldState)}}",
+                                      "labelTextSize": "0.875rem",
+                                      "label": "Max ABRTG count",
+                                      "minNum": "0"
+                                    },
+                                    "customField3": {
+                                      "children": {},
+                                      "dataType": "number",
+                                      "defaultValue": "0",
+                                      "fieldType": "Number Input",
+                                      "sourceData": 0,
+                                      "isCustomField": true,
+                                      "accessor": "max_missed_order_count",
+                                      "identifier": "customField3",
+                                      "position": 4,
+                                      "originalIdentifier": "customField3",
+                                      "accentColor": "{{((sourceData, formData, fieldState) => (appsmith.theme.colors.primaryColor))(PayoutCampaignForm.sourceData, PayoutCampaignForm.formData, PayoutCampaignForm.fieldState)}}",
+                                      "borderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(PayoutCampaignForm.sourceData, PayoutCampaignForm.formData, PayoutCampaignForm.fieldState)}}",
+                                      "boxShadow": "none",
+                                      "iconAlign": "left",
+                                      "isDisabled": false,
+                                      "isRequired": "{{((sourceData, formData, fieldState) => (formData.campaigns.login_incentive.active))(PayoutCampaignForm.sourceData, PayoutCampaignForm.formData, PayoutCampaignForm.fieldState)}}",
+                                      "isSpellCheck": false,
+                                      "isVisible": "{{((sourceData, formData, fieldState) => (formData.campaigns.login_incentive.active))(PayoutCampaignForm.sourceData, PayoutCampaignForm.formData, PayoutCampaignForm.fieldState)}}",
+                                      "labelTextSize": "0.875rem",
+                                      "label": "Max missed order count",
+                                      "minNum": "0"
+                                    },
+                                    "customField4": {
+                                      "children": {
+                                        "customField1": {
+                                          "children": {
+                                            "customField1": {
+                                              "children": {},
+                                              "dataType": "number",
+                                              "defaultValue": 0,
+                                              "fieldType": "Number Input",
+                                              "sourceData": 0,
+                                              "isCustomField": true,
+                                              "accessor": "start_hour",
+                                              "identifier": "customField1",
+                                              "position": 0,
+                                              "originalIdentifier": "customField1",
+                                              "accentColor": "{{((sourceData, formData, fieldState) => (appsmith.theme.colors.primaryColor))(PayoutCampaignForm.sourceData, PayoutCampaignForm.formData, PayoutCampaignForm.fieldState)}}",
+                                              "borderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(PayoutCampaignForm.sourceData, PayoutCampaignForm.formData, PayoutCampaignForm.fieldState)}}",
+                                              "boxShadow": "none",
+                                              "iconAlign": "left",
+                                              "isDisabled": false,
+                                              "isRequired": false,
+                                              "isSpellCheck": false,
+                                              "isVisible": true,
+                                              "labelTextSize": "0.875rem",
+                                              "label": "Hour",
+                                              "minNum": "0",
+                                              "maxNum": "23"
+                                            },
+                                            "customField2": {
+                                              "children": {},
+                                              "dataType": "number",
+                                              "defaultValue": 0,
+                                              "fieldType": "Number Input",
+                                              "sourceData": 0,
+                                              "isCustomField": true,
+                                              "accessor": "start_min",
+                                              "identifier": "customField2",
+                                              "position": 0,
+                                              "originalIdentifier": "customField2",
+                                              "accentColor": "{{((sourceData, formData, fieldState) => (appsmith.theme.colors.primaryColor))(PayoutCampaignForm.sourceData, PayoutCampaignForm.formData, PayoutCampaignForm.fieldState)}}",
+                                              "borderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(PayoutCampaignForm.sourceData, PayoutCampaignForm.formData, PayoutCampaignForm.fieldState)}}",
+                                              "boxShadow": "none",
+                                              "iconAlign": "left",
+                                              "isDisabled": false,
+                                              "isRequired": false,
+                                              "isSpellCheck": false,
+                                              "isVisible": true,
+                                              "labelTextSize": "0.875rem",
+                                              "label": "Minute",
+                                              "minNum": "0",
+                                              "maxNum": "59"
+                                            }
+                                          },
+                                          "dataType": "object",
+                                          "defaultValue": {},
+                                          "fieldType": "Object",
+                                          "sourceData": {},
+                                          "isCustomField": true,
+                                          "accessor": "start_mins",
+                                          "identifier": "customField1",
+                                          "position": 0,
+                                          "originalIdentifier": "customField1",
+                                          "borderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(PayoutCampaignForm.sourceData, PayoutCampaignForm.formData, PayoutCampaignForm.fieldState)}}",
+                                          "boxShadow": "none",
+                                          "cellBorderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(PayoutCampaignForm.sourceData, PayoutCampaignForm.formData, PayoutCampaignForm.fieldState)}}",
+                                          "cellBoxShadow": "none",
+                                          "isDisabled": false,
+                                          "isRequired": false,
+                                          "isVisible": true,
+                                          "labelTextSize": "0.875rem",
+                                          "label": "Start time"
+                                        },
+                                        "customField2": {
+                                          "children": {
+                                            "customField1": {
+                                              "children": {},
+                                              "dataType": "number",
+                                              "defaultValue": 0,
+                                              "fieldType": "Number Input",
+                                              "sourceData": 0,
+                                              "isCustomField": true,
+                                              "accessor": "penalty_end_hour",
+                                              "identifier": "customField1",
+                                              "position": 0,
+                                              "originalIdentifier": "customField1",
+                                              "accentColor": "{{((sourceData, formData, fieldState) => (appsmith.theme.colors.primaryColor))(PayoutCampaignForm.sourceData, PayoutCampaignForm.formData, PayoutCampaignForm.fieldState)}}",
+                                              "borderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(PayoutCampaignForm.sourceData, PayoutCampaignForm.formData, PayoutCampaignForm.fieldState)}}",
+                                              "boxShadow": "none",
+                                              "iconAlign": "left",
+                                              "isDisabled": false,
+                                              "isRequired": true,
+                                              "isSpellCheck": false,
+                                              "isVisible": true,
+                                              "labelTextSize": "0.875rem",
+                                              "label": "",
+                                              "minNum": "0",
+                                              "maxNum": "23"
+                                            },
+                                            "customField2": {
+                                              "children": {},
+                                              "dataType": "number",
+                                              "defaultValue": 0,
+                                              "fieldType": "Number Input",
+                                              "sourceData": 0,
+                                              "isCustomField": true,
+                                              "accessor": "penlty_end_mins",
+                                              "identifier": "customField2",
+                                              "position": 0,
+                                              "originalIdentifier": "customField2",
+                                              "accentColor": "{{((sourceData, formData, fieldState) => (appsmith.theme.colors.primaryColor))(PayoutCampaignForm.sourceData, PayoutCampaignForm.formData, PayoutCampaignForm.fieldState)}}",
+                                              "borderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(PayoutCampaignForm.sourceData, PayoutCampaignForm.formData, PayoutCampaignForm.fieldState)}}",
+                                              "boxShadow": "none",
+                                              "iconAlign": "left",
+                                              "isDisabled": false,
+                                              "isRequired": false,
+                                              "isSpellCheck": false,
+                                              "isVisible": true,
+                                              "labelTextSize": "0.875rem",
+                                              "label": "",
+                                              "minNum": "0",
+                                              "maxNum": "59"
+                                            }
+                                          },
+                                          "dataType": "object",
+                                          "defaultValue": {},
+                                          "fieldType": "Object",
+                                          "sourceData": {},
+                                          "isCustomField": true,
+                                          "accessor": "end_mins",
+                                          "identifier": "customField2",
+                                          "position": 0,
+                                          "originalIdentifier": "customField2",
+                                          "borderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(PayoutCampaignForm.sourceData, PayoutCampaignForm.formData, PayoutCampaignForm.fieldState)}}",
+                                          "boxShadow": "none",
+                                          "cellBorderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(PayoutCampaignForm.sourceData, PayoutCampaignForm.formData, PayoutCampaignForm.fieldState)}}",
+                                          "cellBoxShadow": "none",
+                                          "isDisabled": false,
+                                          "isRequired": false,
+                                          "isVisible": true,
+                                          "labelTextSize": "0.875rem",
+                                          "label": "End time"
+                                        }
+                                      },
+                                      "dataType": "object",
+                                      "defaultValue": {},
+                                      "fieldType": "Object",
+                                      "sourceData": {},
+                                      "isCustomField": true,
+                                      "accessor": "penality_daily_window",
+                                      "identifier": "customField4",
+                                      "position": 5,
+                                      "originalIdentifier": "customField4",
+                                      "borderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(PayoutCampaignForm.sourceData, PayoutCampaignForm.formData, PayoutCampaignForm.fieldState)}}",
+                                      "boxShadow": "none",
+                                      "cellBorderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(PayoutCampaignForm.sourceData, PayoutCampaignForm.formData, PayoutCampaignForm.fieldState)}}",
+                                      "cellBoxShadow": "none",
+                                      "isDisabled": false,
+                                      "isRequired": false,
+                                      "isVisible": "{{((sourceData, formData, fieldState) => (formData.campaigns.login_incentive.active))(PayoutCampaignForm.sourceData, PayoutCampaignForm.formData, PayoutCampaignForm.fieldState)}}",
+                                      "labelTextSize": "0.875rem",
+                                      "label": "Penality Daily window"
+                                    }
+                                  },
+                                  "dataType": "object",
+                                  "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.campaigns.login_incentive))(PayoutCampaignForm.sourceData, PayoutCampaignForm.formData, PayoutCampaignForm.fieldState)}}",
+                                  "fieldType": "Object",
+                                  "sourceData": {
+                                    "active": false,
+                                    "incentive_amount": 200
+                                  },
+                                  "isCustomField": false,
+                                  "accessor": "login_incentive",
+                                  "identifier": "login_incentive",
+                                  "position": 2,
+                                  "originalIdentifier": "login_incentive",
+                                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                                  "boxShadow": "none",
+                                  "cellBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                                  "cellBoxShadow": "none",
+                                  "isDisabled": false,
+                                  "isRequired": false,
+                                  "isVisible": true,
+                                  "labelTextSize": "0.875rem",
+                                  "label": "Login Incentive",
+                                  "tooltip": "{{((sourceData, formData, fieldState) => (`Daily Login window: 10AM-8PM (excluded Sunday);\nMinimum Login Hours: 8 (No Penalty)`))(PayoutCampaignForm.sourceData, PayoutCampaignForm.formData, PayoutCampaignForm.fieldState)}}"
+                                },
+                                "trip_based_incentive": {
+                                  "children": {
+                                    "active": {
+                                      "children": {},
+                                      "dataType": "boolean",
+                                      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.campaigns.trip_based_incentive.active))(PayoutCampaignForm.sourceData, PayoutCampaignForm.formData, PayoutCampaignForm.fieldState)}}",
+                                      "fieldType": "Switch",
+                                      "sourceData": false,
+                                      "isCustomField": false,
+                                      "accessor": "active",
+                                      "identifier": "active",
+                                      "position": 0,
+                                      "originalIdentifier": "active",
+                                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                                      "boxShadow": "none",
+                                      "alignWidget": "LEFT",
+                                      "isDisabled": false,
+                                      "isRequired": false,
+                                      "isVisible": true,
+                                      "labelTextSize": "0.875rem",
+                                      "label": "Active"
+                                    },
+                                    "max_missed_order_count": {
+                                      "children": {},
+                                      "dataType": "number",
+                                      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.campaigns.trip_based_incentive.max_missed_order_count))(PayoutCampaignForm.sourceData, PayoutCampaignForm.formData, PayoutCampaignForm.fieldState)}}",
+                                      "fieldType": "Number Input",
+                                      "sourceData": 2,
+                                      "isCustomField": false,
+                                      "accessor": "max_missed_order_count",
+                                      "identifier": "max_missed_order_count",
+                                      "position": 1,
+                                      "originalIdentifier": "max_missed_order_count",
+                                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                                      "boxShadow": "none",
+                                      "iconAlign": "left",
+                                      "isDisabled": false,
+                                      "isRequired": "{{((sourceData, formData, fieldState) => (formData.campaigns.trip_based_incentive.active))(PayoutCampaignForm.sourceData, PayoutCampaignForm.formData, PayoutCampaignForm.fieldState)}}",
+                                      "isSpellCheck": false,
+                                      "isVisible": "{{((sourceData, formData, fieldState) => (formData.campaigns.trip_based_incentive.active))(PayoutCampaignForm.sourceData, PayoutCampaignForm.formData, PayoutCampaignForm.fieldState)}}",
+                                      "labelTextSize": "0.875rem",
+                                      "label": "Max Missed Order Count"
+                                    },
+                                    "max_abrtg_count": {
+                                      "children": {},
+                                      "dataType": "number",
+                                      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.campaigns.trip_based_incentive.max_abrtg_count))(PayoutCampaignForm.sourceData, PayoutCampaignForm.formData, PayoutCampaignForm.fieldState)}}",
+                                      "fieldType": "Number Input",
+                                      "sourceData": 2,
+                                      "isCustomField": false,
+                                      "accessor": "max_abrtg_count",
+                                      "identifier": "max_abrtg_count",
+                                      "position": 2,
+                                      "originalIdentifier": "max_abrtg_count",
+                                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                                      "boxShadow": "none",
+                                      "iconAlign": "left",
+                                      "isDisabled": false,
+                                      "isRequired": "{{((sourceData, formData, fieldState) => (formData.campaigns.trip_based_incentive.active))(PayoutCampaignForm.sourceData, PayoutCampaignForm.formData, PayoutCampaignForm.fieldState)}}",
+                                      "isSpellCheck": false,
+                                      "isVisible": "{{((sourceData, formData, fieldState) => (formData.campaigns.trip_based_incentive.active))(PayoutCampaignForm.sourceData, PayoutCampaignForm.formData, PayoutCampaignForm.fieldState)}}",
+                                      "labelTextSize": "0.875rem",
+                                      "label": "Max Abrtg Count"
+                                    },
+                                    "payouts": {
+                                      "children": {
+                                        "__array_item__": {
+                                          "children": {
+                                            "completed_order_count": {
+                                              "children": {},
+                                              "dataType": "number",
+                                              "fieldType": "Number Input",
+                                              "sourceData": 10,
+                                              "isCustomField": false,
+                                              "accessor": "completed_order_count",
+                                              "identifier": "completed_order_count",
+                                              "position": 0,
+                                              "originalIdentifier": "completed_order_count",
+                                              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                                              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                                              "boxShadow": "none",
+                                              "iconAlign": "left",
+                                              "isDisabled": false,
+                                              "isRequired": "{{((sourceData, formData, fieldState) => (formData.campaigns.trip_based_incentive.active))(PayoutCampaignForm.sourceData, PayoutCampaignForm.formData, PayoutCampaignForm.fieldState)}}",
+                                              "isSpellCheck": false,
+                                              "isVisible": true,
+                                              "labelTextSize": "0.875rem",
+                                              "label": "Completed Order Count",
+                                              "maxNum": "500"
+                                            },
+                                            "amount": {
+                                              "children": {},
+                                              "dataType": "number",
+                                              "fieldType": "Number Input",
+                                              "sourceData": 1000,
+                                              "isCustomField": false,
+                                              "accessor": "amount",
+                                              "identifier": "amount",
+                                              "position": 1,
+                                              "originalIdentifier": "amount",
+                                              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                                              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                                              "boxShadow": "none",
+                                              "iconAlign": "left",
+                                              "isDisabled": false,
+                                              "isRequired": "{{((sourceData, formData, fieldState) => (formData.campaigns.trip_based_incentive.active))(PayoutCampaignForm.sourceData, PayoutCampaignForm.formData, PayoutCampaignForm.fieldState)}}",
+                                              "isSpellCheck": false,
+                                              "isVisible": true,
+                                              "labelTextSize": "0.875rem",
+                                              "label": "Amount",
+                                              "maxNum": "10000",
+                                              "errorMessage": "{{((sourceData, formData, fieldState) => (`should be less than 10000`))(PayoutCampaignForm.sourceData, PayoutCampaignForm.formData, PayoutCampaignForm.fieldState)}}"
+                                            }
+                                          },
+                                          "dataType": "object",
+                                          "fieldType": "Object",
+                                          "sourceData": {
+                                            "completed_order_count": 10,
+                                            "amount": 1000
+                                          },
+                                          "isCustomField": false,
+                                          "accessor": "__array_item__",
+                                          "identifier": "__array_item__",
+                                          "position": -1,
+                                          "originalIdentifier": "__array_item__",
+                                          "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                                          "boxShadow": "none",
+                                          "cellBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                                          "cellBoxShadow": "none",
+                                          "isDisabled": false,
+                                          "isRequired": false,
+                                          "isVisible": true,
+                                          "labelTextSize": "0.875rem",
+                                          "label": "Array Item"
+                                        }
+                                      },
+                                      "dataType": "array",
+                                      "defaultValue": "{{((sourceData, formData, fieldState) => ( sourceData.campaigns.trip_based_incentive.payouts))(PayoutCampaignForm.sourceData, PayoutCampaignForm.formData, PayoutCampaignForm.fieldState)}}",
+                                      "fieldType": "Array",
+                                      "sourceData": [
+                                        {
+                                          "completed_order_count": 10,
+                                          "amount": 1000
+                                        }
+                                      ],
+                                      "isCustomField": false,
+                                      "accessor": "payouts",
+                                      "identifier": "payouts",
+                                      "position": 4,
+                                      "originalIdentifier": "payouts",
+                                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                                      "boxShadow": "none",
+                                      "cellBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                                      "cellBoxShadow": "none",
+                                      "backgroundColor": "#FAFAFA",
+                                      "isCollapsible": true,
+                                      "isDisabled": false,
+                                      "isRequired": false,
+                                      "isVisible": "{{((sourceData, formData, fieldState) => (formData.campaigns.trip_based_incentive.active))(PayoutCampaignForm.sourceData, PayoutCampaignForm.formData, PayoutCampaignForm.fieldState)}}",
+                                      "labelTextSize": "0.875rem",
+                                      "label": "Payouts"
+                                    },
+                                    "fraud_count": {
+                                      "children": {},
+                                      "dataType": "number",
+                                      "defaultValue": "{{((sourceData, formData, fieldState) => (`No Fraud Orders Allowed`))(PayoutCampaignForm.sourceData, PayoutCampaignForm.formData, PayoutCampaignForm.fieldState)}}",
+                                      "fieldType": "Text Input",
+                                      "sourceData": 0,
+                                      "isCustomField": false,
+                                      "accessor": "fraud_count",
+                                      "identifier": "fraud_count",
+                                      "position": 3,
+                                      "originalIdentifier": "fraud_count",
+                                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                                      "boxShadow": "none",
+                                      "iconAlign": "left",
+                                      "isDisabled": true,
+                                      "isRequired": false,
+                                      "isSpellCheck": false,
+                                      "isVisible": "{{((sourceData, formData, fieldState) => (formData.campaigns.trip_based_incentive.active))(PayoutCampaignForm.sourceData, PayoutCampaignForm.formData, PayoutCampaignForm.fieldState)}}",
+                                      "labelTextSize": "0.875rem",
+                                      "label": "Fraud Orders"
+                                    }
+                                  },
+                                  "dataType": "object",
+                                  "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.campaigns.trip_based_incentive))(PayoutCampaignForm.sourceData, PayoutCampaignForm.formData, PayoutCampaignForm.fieldState)}}",
+                                  "fieldType": "Object",
+                                  "sourceData": {
+                                    "active": false,
+                                    "max_missed_order_count": 2,
+                                    "max_abrtg_count": 2,
+                                    "fraud_count": 0,
+                                    "payouts": [
+                                      {
+                                        "completed_order_count": 10,
+                                        "amount": 1000
+                                      }
+                                    ]
+                                  },
+                                  "isCustomField": false,
+                                  "accessor": "trip_based_incentive",
+                                  "identifier": "trip_based_incentive",
+                                  "position": 3,
+                                  "originalIdentifier": "trip_based_incentive",
+                                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                                  "boxShadow": "none",
+                                  "cellBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                                  "cellBoxShadow": "none",
+                                  "isDisabled": false,
+                                  "isRequired": false,
+                                  "isVisible": true,
+                                  "labelTextSize": "0.875rem",
+                                  "label": "Trip Based Incentive"
+                                }
+                              },
+                              "dataType": "object",
+                              "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.campaigns))(PayoutCampaignForm.sourceData, PayoutCampaignForm.formData, PayoutCampaignForm.fieldState)}}",
+                              "fieldType": "Object",
+                              "sourceData": {
+                                "trip_fare": {
+                                  "active": false
+                                },
+                                "dryrun": {
+                                  "active": false,
+                                  "min_kms": 2,
+                                  "incv_km_cap": 10,
+                                  "per_km_rate": 8
+                                },
+                                "fixed_percent_commission": {
+                                  "active": false,
+                                  "commission_fraction": 0.15
+                                },
+                                "login_incentive": {
+                                  "active": false,
+                                  "incentive_amount": 200
+                                },
+                                "trip_based_incentive": {
+                                  "active": false,
+                                  "max_missed_order_count": 2,
+                                  "max_abrtg_count": 2,
+                                  "fraud_count": 0,
+                                  "payouts": [
+                                    {
+                                      "completed_order_count": 10,
+                                      "amount": 1000
+                                    }
+                                  ]
+                                }
+                              },
+                              "isCustomField": false,
+                              "accessor": "campaigns",
+                              "identifier": "campaigns",
+                              "position": 4,
+                              "originalIdentifier": "campaigns",
+                              "isDisabled": false,
+                              "isRequired": false,
+                              "isVisible": true,
+                              "label": "Campaigns",
+                              "cellBorderColor": "#FFFFFF",
+                              "cellBackgroundColor": "#FFFFFF",
+                              "labelTextSize": "0.875rem",
+                              "borderRadius": "0px",
+                              "cellBorderRadius": "0px",
+                              "boxShadow": "none",
+                              "cellBoxShadow": "none",
+                              "accentColor": "#03B365"
+                            },
+                            "vehicle": {
+                              "children": {},
+                              "dataType": "string",
+                              "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.vehicle))(PayoutCampaignForm.sourceData, PayoutCampaignForm.formData, PayoutCampaignForm.fieldState)}}",
+                              "fieldType": "Select",
+                              "sourceData": "",
+                              "isCustomField": false,
+                              "accessor": "vehicle_id",
+                              "identifier": "vehicle",
+                              "position": 1,
+                              "originalIdentifier": "vehicle",
+                              "isDisabled": false,
+                              "isFilterable": true,
+                              "isRequired": true,
+                              "isVisible": true,
+                              "label": "Vehicle",
+                              "serverSideFiltering": false,
+                              "options": "{{VehicleSelectionList.data}}",
+                              "placeholderText": "{{((sourceData, formData, fieldState) => (`Select a Vehicle`))(PayoutCampaignForm.sourceData, PayoutCampaignForm.formData, PayoutCampaignForm.fieldState)}}",
+                              "labelTextSize": "0.875rem",
+                              "borderRadius": "0px",
+                              "cellBorderRadius": "0px",
+                              "boxShadow": "none",
+                              "cellBoxShadow": "none",
+                              "accentColor": "#03B365"
+                            },
+                            "campaign_start_date": {
+                              "children": {},
+                              "dataType": "string",
+                              "defaultValue": "{{((sourceData, formData, fieldState) => (new Date(new Date().setDate(new Date().getDate()+1)).toJSON().slice(0,10).replace(/-/g,'-')\n))(PayoutCampaignForm.sourceData, PayoutCampaignForm.formData, PayoutCampaignForm.fieldState)}}",
+                              "fieldType": "Datepicker",
+                              "sourceData": "",
+                              "isCustomField": false,
+                              "accessor": "campaign_start_date",
+                              "identifier": "campaign_start_date",
+                              "position": 2,
+                              "originalIdentifier": "campaign_start_date",
+                              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                              "boxShadow": "none",
+                              "closeOnSelection": true,
+                              "convertToISO": false,
+                              "dateFormat": "YYYY-MM-DD",
+                              "isDisabled": false,
+                              "isRequired": true,
+                              "isVisible": true,
+                              "label": "Start Date",
+                              "maxDate": "2121-12-31T18:29:00.000Z",
+                              "shortcuts": true,
+                              "timePrecision": "None",
+                              "labelTextSize": "0.875rem",
+                              "minDate": "{{((sourceData, formData, fieldState) => (moment().clone().add(1,'days')))(PayoutCampaignForm.sourceData, PayoutCampaignForm.formData, PayoutCampaignForm.fieldState)}}",
+                              "tooltip": "{{((sourceData, formData, fieldState) => (`Campaign will start running on selected date`))(PayoutCampaignForm.sourceData, PayoutCampaignForm.formData, PayoutCampaignForm.fieldState)}}"
+                            },
+                            "campaign_end_date": {
+                              "children": {},
+                              "dataType": "string",
+                              "fieldType": "Datepicker",
+                              "sourceData": "",
+                              "isCustomField": false,
+                              "accessor": "campaign_end_date",
+                              "identifier": "campaign_end_date",
+                              "position": 3,
+                              "originalIdentifier": "campaign_end_date",
+                              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                              "boxShadow": "none",
+                              "closeOnSelection": true,
+                              "convertToISO": true,
+                              "dateFormat": "YYYY-MM-DD",
+                              "isDisabled": "{{((sourceData, formData, fieldState) => (PayoutCampaignForm.formData.campaign_start_date == undefined || PayoutCampaignForm.formData.campaign_start_date == \"\"))(PayoutCampaignForm.sourceData, PayoutCampaignForm.formData, PayoutCampaignForm.fieldState)}}",
+                              "isRequired": true,
+                              "isVisible": true,
+                              "label": "End Date",
+                              "maxDate": "2040-01-02T00:00:00.000+05:30",
+                              "minDate": "{{((sourceData, formData, fieldState) => (PayoutCampaignForm.formData.campaign_start_date || moment().clone().add(1,'days')))(PayoutCampaignForm.sourceData, PayoutCampaignForm.formData, PayoutCampaignForm.fieldState)}}",
+                              "shortcuts": false,
+                              "timePrecision": "None",
+                              "labelTextSize": "0.875rem",
+                              "tooltip": "{{((sourceData, formData, fieldState) => (`Last date when campaign will run` + formData.campaign_end_date + `.`))(PayoutCampaignForm.sourceData, PayoutCampaignForm.formData, PayoutCampaignForm.fieldState)}}",
+                              "defaultValue": "{{((sourceData, formData, fieldState) => (new Date(\"2040-01-01\").toJSON().slice(0,10).replace(/-/g,'-')\n))(PayoutCampaignForm.sourceData, PayoutCampaignForm.formData, PayoutCampaignForm.fieldState)}}"
+                            }
+                          },
+                          "dataType": "object",
+                          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData))(PayoutCampaignForm.sourceData, PayoutCampaignForm.formData, PayoutCampaignForm.fieldState)}}",
+                          "fieldType": "Object",
+                          "sourceData": {
+                            "city": "",
+                            "vehicle": "",
+                            "campaign_start_date": "",
+                            "campaign_end_date": "",
+                            "campaigns": {
+                              "trip_fare": {
+                                "active": false
+                              },
+                              "dryrun": {
+                                "active": false,
+                                "min_kms": 2,
+                                "incv_km_cap": 10,
+                                "per_km_rate": 8
+                              },
+                              "fixed_percent_commission": {
+                                "active": false,
+                                "commission_fraction": 0.15
+                              },
+                              "login_incentive": {
+                                "active": false,
+                                "incentive_amount": 200
+                              },
+                              "trip_based_incentive": {
+                                "active": false,
+                                "max_missed_order_count": 2,
+                                "max_abrtg_count": 2,
+                                "fraud_count": 0,
+                                "payouts": [
+                                  {
+                                    "completed_order_count": 10,
+                                    "amount": 1000
+                                  }
+                                ]
+                              }
+                            }
+                          },
+                          "isCustomField": false,
+                          "accessor": "__root_schema__",
+                          "identifier": "__root_schema__",
+                          "position": -1,
+                          "originalIdentifier": "__root_schema__",
+                          "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                          "boxShadow": "none",
+                          "cellBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                          "cellBoxShadow": "none",
+                          "isDisabled": false,
+                          "isRequired": false,
+                          "isVisible": true,
+                          "labelTextSize": "0.875rem",
+                          "label": ""
+                        }
+                      },
+                      "boxShadow": "0px 1px 3px #F6F7F8",
+                      "widgetName": "PayoutCampaignForm",
+                      "submitButtonStyles": {
+                        "buttonColor": "#F6F7F8",
+                        "buttonVariant": "PRIMARY",
+                        "borderRadius": "0.375rem",
+                        "boxShadow": "0px 1px 3px #231F20",
+                        "boxShadowColor": "#231F20"
+                      },
+                      "borderColor": "#231F20",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "schema.__root_schema__.children.date_of_birth.defaultValue"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.dry_run.children.active.defaultValue"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.dry_run.children.min_kms.isVisible"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.dry_run.children.min_kms.isRequired"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.dry_run.children.incv_km_cap.isRequired"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.dry_run.children.incv_km_cap.isVisible"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.dry_run.children.per_km_rate.isRequired"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.dry_run.children.per_km_rate.isVisible"
+                        },
+                        {
+                          "key": "boxShadow"
+                        },
+                        {
+                          "key": "submitButtonStyles.boxShadow"
+                        },
+                        {
+                          "key": "resetButtonStyles.boxShadow"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaign_end_date.minDate"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaign_start_date.defaultValue"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaign_start_date.minDate"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaign_end_date.isDisabled"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.login_incentive.children.active.defaultValue"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.login_incentive.children.incentive_amount.isVisible"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.login_incentive.children.incentive_amount.isRequired"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.trip_based_incentive.children.active.defaultValue"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.trip_based_incentive.children.max_missed_order_count.isRequired"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.trip_based_incentive.children.max_missed_order_count.isVisible"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.trip_based_incentive.children.max_abrtg_count.isRequired"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.trip_based_incentive.children.max_abrtg_count.isVisible"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.trip_based_incentive.children.payouts.isVisible"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.trip_based_incentive.children.fraud_count.isVisible"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.trip_based_incentive.children.payouts.children.__array_item__.children.amount.isRequired"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.trip_based_incentive.children.payouts.children.__array_item__.children.completed_order_count.isRequired"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaign_end_date.defaultValue"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.login_incentive.children.customField1.isRequired"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.login_incentive.children.customField2.isRequired"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.login_incentive.children.customField3.isRequired"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.login_incentive.children.customField4.isVisible"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.login_incentive.children.customField1.isVisible"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.login_incentive.children.customField2.isVisible"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.login_incentive.children.customField3.isVisible"
+                        }
+                      ],
+                      "displayName": "JSON Form",
+                      "iconSVG": "/static/media/icon.5b428de1.svg",
+                      "onSubmit": "{{NextCampaignCall.next()}}",
+                      "topRow": 10,
+                      "bottomRow": 53,
+                      "fieldLimitExceeded": false,
+                      "parentRowSpace": 10,
+                      "title": "Payout Campaign",
+                      "type": "JSON_FORM_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 10.287109375,
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onSubmit"
+                        }
+                      ],
+                      "leftColumn": 14,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "schema.__root_schema__.children.campaign_end_date.borderRadius"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaign_end_date.accentColor"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaign_start_date.borderRadius"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaign_start_date.accentColor"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.vehicle.placeholderText"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.vehicle.defaultValue"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.vehicle.options"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.city.placeholderText"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.city.options"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaign_end_date.minDate"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaign_start_date.minDate"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaign_end_date.isDisabled"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.login_incentive.defaultValue"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.login_incentive.borderRadius"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.login_incentive.cellBorderRadius"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.defaultValue"
+                        },
+                        {
+                          "key": "schema.__root_schema__.defaultValue"
+                        },
+                        {
+                          "key": "schema.__root_schema__.borderRadius"
+                        },
+                        {
+                          "key": "schema.__root_schema__.cellBorderRadius"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.login_incentive.children.active.defaultValue"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.login_incentive.children.active.accentColor"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.login_incentive.children.incentive_amount.defaultValue"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.login_incentive.children.incentive_amount.accentColor"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.login_incentive.children.incentive_amount.isVisible"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.login_incentive.children.incentive_amount.isRequired"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaign_start_date.defaultValue"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaign_start_date.tooltip"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaign_end_date.tooltip"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.login_incentive.children.incentive_amount.borderRadius"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.login_incentive.tooltip"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.trip_based_incentive.defaultValue"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.trip_based_incentive.borderRadius"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.trip_based_incentive.cellBorderRadius"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.trip_based_incentive.children.active.defaultValue"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.trip_based_incentive.children.active.accentColor"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.trip_based_incentive.children.max_missed_order_count.defaultValue"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.trip_based_incentive.children.max_missed_order_count.accentColor"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.trip_based_incentive.children.max_missed_order_count.borderRadius"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.trip_based_incentive.children.max_abrtg_count.defaultValue"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.trip_based_incentive.children.max_abrtg_count.accentColor"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.trip_based_incentive.children.max_abrtg_count.borderRadius"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.trip_based_incentive.children.payouts.borderRadius"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.trip_based_incentive.children.payouts.cellBorderRadius"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.trip_based_incentive.children.payouts.children.__array_item__.children.completed_order_count.accentColor"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.trip_based_incentive.children.payouts.children.__array_item__.children.completed_order_count.borderRadius"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.trip_based_incentive.children.payouts.children.__array_item__.children.amount.accentColor"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.trip_based_incentive.children.payouts.children.__array_item__.children.amount.borderRadius"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.trip_based_incentive.children.payouts.children.__array_item__.borderRadius"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.trip_based_incentive.children.payouts.children.__array_item__.cellBorderRadius"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.trip_based_incentive.children.payouts.accentColor"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.trip_based_incentive.children.max_missed_order_count.isRequired"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.trip_based_incentive.children.max_missed_order_count.isVisible"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.trip_based_incentive.children.max_abrtg_count.isRequired"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.trip_based_incentive.children.max_abrtg_count.isVisible"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.trip_based_incentive.children.payouts.isVisible"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.trip_based_incentive.children.payouts.defaultValue"
+                        },
+                        {
+                          "key": "submitButtonLabel"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.trip_based_incentive.children.fraud_count.defaultValue"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.trip_based_incentive.children.fraud_count.accentColor"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.trip_based_incentive.children.fraud_count.borderRadius"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.trip_based_incentive.children.fraud_count.isVisible"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.trip_based_incentive.children.payouts.children.__array_item__.children.amount.errorMessage"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.trip_based_incentive.children.payouts.children.__array_item__.children.amount.isRequired"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.trip_based_incentive.children.payouts.children.__array_item__.children.completed_order_count.isRequired"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaign_end_date.defaultValue"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.login_incentive.children.incentive_amount.tooltip"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.login_incentive.children.customField1.accentColor"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.login_incentive.children.customField1.borderRadius"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.login_incentive.children.customField2.accentColor"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.login_incentive.children.customField2.borderRadius"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.login_incentive.children.customField3.accentColor"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.login_incentive.children.customField3.borderRadius"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.login_incentive.children.customField4.borderRadius"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.login_incentive.children.customField4.cellBorderRadius"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.login_incentive.children.customField4.children.customField1.borderRadius"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.login_incentive.children.customField4.children.customField2.borderRadius"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.login_incentive.children.customField1.isRequired"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.login_incentive.children.customField2.isRequired"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.login_incentive.children.customField3.isRequired"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.login_incentive.children.customField4.isVisible"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.login_incentive.children.customField1.isVisible"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.login_incentive.children.customField2.isVisible"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.login_incentive.children.customField3.isVisible"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.login_incentive.children.customField4.children.customField1.cellBorderRadius"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.login_incentive.children.customField4.children.customField1.children.customField1.accentColor"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.login_incentive.children.customField4.children.customField1.children.customField1.borderRadius"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.login_incentive.children.customField4.children.customField1.children.customField2.accentColor"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.login_incentive.children.customField4.children.customField1.children.customField2.borderRadius"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.login_incentive.children.customField4.children.customField2.cellBorderRadius"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.login_incentive.children.customField4.children.customField2.children.customField1.accentColor"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.login_incentive.children.customField4.children.customField2.children.customField1.borderRadius"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.login_incentive.children.customField4.children.customField2.children.customField2.accentColor"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.campaigns.children.login_incentive.children.customField4.children.customField2.children.customField2.borderRadius"
+                        }
+                      ],
+                      "sourceData": "{ \n\t\"city\": \"\",\n\t\"vehicle\": \"\",\n\t\"campaign_start_date\": \"\",\n\t\"campaign_end_date\": \"\",\n\t\"campaigns\": {\n\t\t\t\"login_incentive\":{\n\t\t\t\t\t\"active\": false,\n\t\t\t\t\t\"incentive_amount\": 200,\n\t\t\t\t\t\"max_missed_order_count\": 2,\n\t\t\t\"max_abrtg_count\": 2,\n\t\t\t\"max_fraud_count\": 0,\n\t\t\t\"penality_daily_window\":\n\t\t\t{\n\t\t\t\"start_mins\": 0,\n\t\t\t\"end_mins\": 0\n\t\t\t}\n\t\t\t},\n\t\t\t\"trip_based_incentive\":{\n\t\t\t\"active\": false,\t\t\t\"max_missed_order_count\": 2,\n\t\t\t\"max_abrtg_count\": 2,\n\t\t\t\"fraud_count\": 0,\n\t\t\t\"payouts\": [{\n\t\t\"completed_order_count\": 10,\n\t\t\t\"amount\": 1000\n\t\t\t}]\n\t\t\t}\n\t}\n}",
+                      "showReset": true,
+                      "resetButtonLabel": "Reset",
+                      "key": "yty34hvdju",
+                      "labelTextSize": "0.875rem",
+                      "backgroundColor": "#F6F7F8",
+                      "rightColumn": 43,
+                      "dynamicHeight": "FIXED",
+                      "autoGenerateForm": true,
+                      "widgetId": "ok3yh26bz0",
+                      "resetButtonStyles": {
+                        "buttonColor": "#FFFFFF",
+                        "buttonVariant": "PRIMARY",
+                        "borderRadius": "0.375rem",
+                        "boxShadow": "0px 1px 3px #231F20",
+                        "boxShadowColor": "#231F20"
+                      },
+                      "isVisible": true,
+                      "version": 1,
+                      "parentId": "qtimltgqwu",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "scrollContents": true,
+                      "fixedFooter": true,
+                      "submitButtonLabel": "{{ PayoutCampaignForm.formData.campaigns.trip_based_incentive.active ? \"Next\": \"Submit\"}}",
+                      "childStylesheet": {
+                        "ARRAY": {
+                          "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                          "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                          "boxShadow": "none",
+                          "cellBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                          "cellBoxShadow": "none"
+                        },
+                        "OBJECT": {
+                          "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                          "boxShadow": "none",
+                          "cellBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                          "cellBoxShadow": "none"
+                        },
+                        "CHECKBOX": {
+                          "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                          "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+                        },
+                        "CURRENCY_INPUT": {
+                          "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                          "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                          "boxShadow": "none"
+                        },
+                        "DATEPICKER": {
+                          "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                          "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                          "boxShadow": "none"
+                        },
+                        "EMAIL_INPUT": {
+                          "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                          "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                          "boxShadow": "none"
+                        },
+                        "MULTISELECT": {
+                          "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                          "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                          "boxShadow": "none"
+                        },
+                        "MULTILINE_TEXT_INPUT": {
+                          "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                          "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                          "boxShadow": "none"
+                        },
+                        "NUMBER_INPUT": {
+                          "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                          "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                          "boxShadow": "none"
+                        },
+                        "PASSWORD_INPUT": {
+                          "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                          "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                          "boxShadow": "none"
+                        },
+                        "PHONE_NUMBER_INPUT": {
+                          "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                          "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                          "boxShadow": "none"
+                        },
+                        "RADIO_GROUP": {
+                          "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                          "boxShadow": "none"
+                        },
+                        "SELECT": {
+                          "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                          "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                          "boxShadow": "none"
+                        },
+                        "SWITCH": {
+                          "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                          "boxShadow": "none"
+                        },
+                        "TEXT_INPUT": {
+                          "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                          "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                          "boxShadow": "none"
+                        }
+                      },
+                      "disabledWhenInvalid": true,
+                      "borderRadius": "0px",
+                      "maxDynamicHeight": 9000,
+                      "boxShadowColor": "#F6F7F8",
+                      "minDynamicHeight": 4
+                    }
+                  ],
+                  "isDisabled": false,
+                  "key": "f3u1tc6wg0",
+                  "labelTextSize": "0.875rem",
+                  "tabName": "Authenticated",
+                  "rightColumn": 301.5,
+                  "detachFromLayout": true,
+                  "widgetId": "qtimltgqwu",
+                  "isVisible": true,
+                  "version": 1,
+                  "parentId": "y3mgh3y8mv",
+                  "renderMode": "CANVAS",
+                  "isLoading": false,
+                  "borderRadius": "0px"
+                },
+                {
+                  "tabId": "tab2",
+                  "boxShadow": "none",
+                  "widgetName": "Canvas2",
+                  "displayName": "Canvas",
+                  "topRow": 0,
+                  "bottomRow": 390,
+                  "parentRowSpace": 1,
+                  "type": "CANVAS_WIDGET",
+                  "canExtend": true,
+                  "hideCard": true,
+                  "shouldScrollContents": false,
+                  "minHeight": 400,
+                  "parentColumnSpace": 1,
+                  "dynamicTriggerPathList": [],
+                  "leftColumn": 0,
+                  "dynamicBindingPathList": [],
+                  "children": [
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "Text1",
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b52.svg",
+                      "topRow": 2,
+                      "bottomRow": 6,
+                      "parentRowSpace": 10,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "overflow": "NONE",
+                      "parentColumnSpace": 6.75390625,
+                      "dynamicTriggerPathList": [],
+                      "fontFamily": "System Default",
+                      "leftColumn": 3,
+                      "dynamicBindingPathList": [],
+                      "shouldTruncate": false,
+                      "truncateButtonColor": "#FFC13D",
+                      "text": "You are not Logged in. Click here to",
+                      "key": "ftqzlmr0hq",
+                      "labelTextSize": "0.875rem",
+                      "rightColumn": 33,
+                      "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
+                      "widgetId": "9zgyv42pgt",
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "textColor": "#231F20",
+                      "version": 1,
+                      "parentId": "siga3y90yz",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "0px",
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "0.875rem",
+                      "minDynamicHeight": 4
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "Button1",
+                      "onClick": "{{navigateTo('Login')}}",
+                      "buttonColor": "#03B365",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
+                      "displayName": "Button",
+                      "iconSVG": "/static/media/icon.cca02633.svg",
+                      "topRow": 2,
+                      "bottomRow": 6,
+                      "parentRowSpace": 10,
+                      "type": "BUTTON_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 8.5205078125,
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
+                      "leftColumn": 33,
+                      "dynamicBindingPathList": [],
+                      "text": "Login",
+                      "isDisabled": false,
+                      "key": "sd190fs29y",
+                      "labelTextSize": "0.875rem",
+                      "rightColumn": 49,
+                      "isDefaultClickDisabled": true,
+                      "widgetId": "0yx5f9vit7",
+                      "isVisible": true,
+                      "recaptchaType": "V3",
+                      "version": 1,
+                      "parentId": "siga3y90yz",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "0px",
+                      "buttonVariant": "PRIMARY",
+                      "placement": "CENTER"
+                    }
+                  ],
+                  "isDisabled": false,
+                  "key": "f3u1tc6wg0",
+                  "labelTextSize": "0.875rem",
+                  "tabName": "Unauthenticated",
+                  "rightColumn": 301.5,
+                  "detachFromLayout": true,
+                  "widgetId": "siga3y90yz",
+                  "isVisible": true,
+                  "version": 1,
+                  "parentId": "y3mgh3y8mv",
+                  "renderMode": "CANVAS",
+                  "isLoading": false,
+                  "borderRadius": "0px"
+                }
+              ],
+              "key": "8sy8008wt4",
+              "labelTextSize": "0.875rem",
+              "rightColumn": 59,
+              "dynamicHeight": "FIXED",
+              "widgetId": "y3mgh3y8mv",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "defaultTab": "{{IsAuthenticated.check()}}",
+              "shouldShowTabs": false,
+              "tabsObj": {
+                "tab1": {
+                  "label": "Authenticated",
+                  "id": "tab1",
+                  "widgetId": "qtimltgqwu",
+                  "isVisible": true,
+                  "index": 0,
+                  "isDuplicateLabel": false
+                },
+                "tab2": {
+                  "label": "Unauthenticated",
+                  "id": "tab2",
+                  "widgetId": "siga3y90yz",
+                  "isVisible": true,
+                  "index": 1,
+                  "isDuplicateLabel": false
+                }
+              },
+              "isVisible": "true",
+              "version": 3,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "0px",
+              "maxDynamicHeight": 9000,
+              "minDynamicHeight": 4
+            },
+            {
+              "boxShadow": "none",
+              "widgetName": "fileupload",
+              "isCanvas": true,
+              "displayName": "Modal",
+              "iconSVG": "/static/media/icon.4975978e9a961fb0bfb4e38de7ecc7c5.svg",
+              "searchTags": [
+                "dialog",
+                "popup",
+                "notification"
+              ],
+              "topRow": 17,
+              "bottomRow": 41,
+              "parentRowSpace": 10,
+              "type": "MODAL_WIDGET",
+              "hideCard": false,
+              "shouldScrollContents": true,
+              "animateLoading": true,
+              "parentColumnSpace": 14.822265625,
+              "leftColumn": 15,
+              "dynamicBindingPathList": [
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "children": [
+                {
+                  "boxShadow": "none",
+                  "widgetName": "Canvas3",
+                  "displayName": "Canvas",
+                  "topRow": 0,
+                  "bottomRow": 230,
+                  "parentRowSpace": 1,
+                  "type": "CANVAS_WIDGET",
+                  "canExtend": true,
+                  "hideCard": true,
+                  "shouldScrollContents": false,
+                  "minHeight": 240,
+                  "parentColumnSpace": 1,
+                  "leftColumn": 0,
+                  "dynamicBindingPathList": [
+                    {
+                      "key": "borderRadius"
+                    },
+                    {
+                      "key": "accentColor"
+                    }
+                  ],
+                  "children": [
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "IconButton5",
+                      "onClick": "{{closeModal('fileupload')}}",
+                      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "displayName": "Icon Button",
+                      "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
+                      "searchTags": [
+                        "click",
+                        "submit"
+                      ],
+                      "topRow": 1,
+                      "bottomRow": 5,
+                      "type": "ICON_BUTTON_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "leftColumn": 56,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "buttonColor"
+                        },
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "iconSize": 24,
+                      "isDisabled": false,
+                      "key": "qabavsepbz",
+                      "isDeprecated": false,
+                      "rightColumn": 64,
+                      "iconName": "cross",
+                      "widgetId": "cmcoi0xjr3",
+                      "isVisible": true,
+                      "version": 1,
+                      "parentId": "14r0wq6m75",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "buttonVariant": "TERTIARY"
+                    },
+                    {
+                      "widgetName": "Text2",
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+                      "searchTags": [
+                        "typography",
+                        "paragraph"
+                      ],
+                      "topRow": 1,
+                      "bottomRow": 5,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "overflow": "NONE",
+                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 1,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "fontFamily"
+                        },
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "shouldTruncate": false,
+                      "truncateButtonColor": "#FFC13D",
+                      "text": "Trip Based Incentive",
+                      "key": "mjhp1ki1w2",
+                      "isDeprecated": false,
+                      "rightColumn": 41,
+                      "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
+                      "widgetId": "yv1ggpvy8t",
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "textColor": "#231F20",
+                      "version": 1,
+                      "parentId": "14r0wq6m75",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "1.5rem",
+                      "minDynamicHeight": 4
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "Button2",
+                      "onClick": "{{closeModal('fileupload')}}",
+                      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "displayName": "Button",
+                      "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
+                      "searchTags": [
+                        "click",
+                        "submit"
+                      ],
+                      "topRow": 16,
+                      "bottomRow": 20,
+                      "type": "BUTTON_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "leftColumn": 32,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "buttonColor"
+                        },
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "text": "Close",
+                      "isDisabled": false,
+                      "key": "bi7pvrb11q",
+                      "isDeprecated": false,
+                      "rightColumn": 48,
+                      "isDefaultClickDisabled": true,
+                      "widgetId": "65a2ec6m3x",
+                      "buttonStyle": "PRIMARY",
+                      "isVisible": true,
+                      "recaptchaType": "V3",
+                      "version": 1,
+                      "parentId": "14r0wq6m75",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "buttonVariant": "SECONDARY",
+                      "placement": "CENTER"
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "FileSubmitted",
+                      "onClick": "{{PreviewCall.trip_based_preview()}}",
+                      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "isDisabled"
+                        },
+                        {
+                          "key": "onClick"
+                        }
+                      ],
+                      "displayName": "Button",
+                      "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
+                      "searchTags": [
+                        "click",
+                        "submit"
+                      ],
+                      "topRow": 16,
+                      "bottomRow": 20,
+                      "type": "BUTTON_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
+                      "leftColumn": 48,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "buttonColor"
+                        },
+                        {
+                          "key": "borderRadius"
+                        },
+                        {
+                          "key": "isDisabled"
+                        }
+                      ],
+                      "text": "Submit",
+                      "isDisabled": "{{driver_file.files[0] == undefined }}",
+                      "key": "bi7pvrb11q",
+                      "isDeprecated": false,
+                      "rightColumn": 64,
+                      "isDefaultClickDisabled": true,
+                      "widgetId": "pb6ukrvfil",
+                      "buttonStyle": "PRIMARY_BUTTON",
+                      "isVisible": true,
+                      "recaptchaType": "V3",
+                      "version": 1,
+                      "parentId": "14r0wq6m75",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "buttonVariant": "PRIMARY",
+                      "placement": "CENTER"
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "driver_file",
+                      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "onFilesSelected"
+                        },
+                        {
+                          "key": "allowedFileTypes"
+                        }
+                      ],
+                      "displayName": "FilePicker",
+                      "iconSVG": "/static/media/icon.7c5ad9c357928c6ff5701bf51a56c2e5.svg",
+                      "searchTags": [
+                        "upload"
+                      ],
+                      "topRow": 8,
+                      "bottomRow": 12,
+                      "parentRowSpace": 10,
+                      "allowedFileTypes": "",
+                      "type": "FILE_PICKER_WIDGET_V2",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 6.9375,
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onFilesSelected"
+                        }
+                      ],
+                      "leftColumn": 5,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "buttonColor"
+                        },
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "isDisabled": false,
+                      "key": "27l0i3dj1o",
+                      "onFilesSelected": "",
+                      "isRequired": true,
+                      "isDeprecated": false,
+                      "rightColumn": 54,
+                      "isDefaultClickDisabled": true,
+                      "widgetId": "4pbtdsu65m",
+                      "isVisible": true,
+                      "label": "Select Files",
+                      "maxFileSize": 5,
+                      "version": 1,
+                      "fileDataType": "Base64",
+                      "parentId": "14r0wq6m75",
+                      "selectedFiles": [],
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "files": [],
+                      "maxNumFiles": 1
+                    }
+                  ],
+                  "isDisabled": false,
+                  "key": "re0fnavg3h",
+                  "isDeprecated": false,
+                  "rightColumn": 355.734375,
+                  "detachFromLayout": true,
+                  "widgetId": "14r0wq6m75",
+                  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "isVisible": true,
+                  "version": 1,
+                  "parentId": "j65g9552nx",
+                  "renderMode": "CANVAS",
+                  "isLoading": false,
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+                }
+              ],
+              "key": "82d6dfjp7y",
+              "height": 240,
+              "isDeprecated": false,
+              "rightColumn": 39,
+              "detachFromLayout": true,
+              "dynamicHeight": "FIXED",
+              "widgetId": "j65g9552nx",
+              "canOutsideClickClose": true,
+              "canEscapeKeyClose": true,
+              "version": 2,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "maxDynamicHeight": 9000,
+              "width": 456,
+              "minDynamicHeight": 4
+            },
+            {
+              "boxShadow": "none",
+              "widgetName": "preview_modal",
+              "isCanvas": true,
+              "displayName": "Modal",
+              "iconSVG": "/static/media/icon.4975978e9a961fb0bfb4e38de7ecc7c5.svg",
+              "searchTags": [
+                "dialog",
+                "popup",
+                "notification"
+              ],
+              "topRow": 0,
+              "bottomRow": 0,
+              "parentRowSpace": 1,
+              "type": "MODAL_WIDGET",
+              "hideCard": false,
+              "shouldScrollContents": true,
+              "animateLoading": false,
+              "parentColumnSpace": 1,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 0,
+              "dynamicBindingPathList": [
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "children": [
+                {
+                  "boxShadow": "none",
+                  "widgetName": "Canvas4",
+                  "displayName": "Canvas",
+                  "topRow": 0,
+                  "bottomRow": 690,
+                  "parentRowSpace": 1,
+                  "type": "CANVAS_WIDGET",
+                  "canExtend": true,
+                  "hideCard": true,
+                  "shouldScrollContents": false,
+                  "minHeight": 692,
+                  "parentColumnSpace": 1,
+                  "dynamicTriggerPathList": [],
+                  "leftColumn": 0,
+                  "dynamicBindingPathList": [
+                    {
+                      "key": "borderRadius"
+                    },
+                    {
+                      "key": "accentColor"
+                    }
+                  ],
+                  "children": [
+                    {
+                      "widgetName": "TripBasedIncentiveDriver",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "isVisible"
+                        }
+                      ],
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+                      "searchTags": [
+                        "typography",
+                        "paragraph"
+                      ],
+                      "topRow": 40,
+                      "bottomRow": 45,
+                      "parentRowSpace": 10,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "overflow": "SCROLL",
+                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                      "parentColumnSpace": 6.9375,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 1,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "fontFamily"
+                        },
+                        {
+                          "key": "borderRadius"
+                        },
+                        {
+                          "key": "isVisible"
+                        },
+                        {
+                          "key": "text"
+                        }
+                      ],
+                      "shouldTruncate": false,
+                      "truncateButtonColor": "#FFC13D",
+                      "text": "{{TripBasedFunc.getStringValue()}}",
+                      "key": "mjhp1ki1w2",
+                      "isDeprecated": false,
+                      "rightColumn": 45,
+                      "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
+                      "widgetId": "mvpd9fun0o",
+                      "isVisible": "{{PayoutCampaignForm.formData.campaigns.trip_based_incentive.active}}",
+                      "fontStyle": "BOLD",
+                      "textColor": "#71717a",
+                      "version": 1,
+                      "parentId": "pqdtbv0ujq",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "0.875rem",
+                      "minDynamicHeight": 4
+                    },
+                    {
+                      "widgetName": "TripBasedIncentive",
+                      "dynamicPropertyPathList": [],
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+                      "searchTags": [
+                        "typography",
+                        "paragraph"
+                      ],
+                      "topRow": 36,
+                      "bottomRow": 40,
+                      "parentRowSpace": 10,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "overflow": "NONE",
+                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                      "parentColumnSpace": 6.9375,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 20,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "fontFamily"
+                        },
+                        {
+                          "key": "borderRadius"
+                        },
+                        {
+                          "key": "text"
+                        }
+                      ],
+                      "shouldTruncate": false,
+                      "truncateButtonColor": "#FFC13D",
+                      "text": "{{Previewfunc.getTripBased()}}",
+                      "key": "mjhp1ki1w2",
+                      "isDeprecated": false,
+                      "rightColumn": 48,
+                      "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
+                      "widgetId": "snqhaqdqan",
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "textColor": "#71717a",
+                      "version": 1,
+                      "parentId": "pqdtbv0ujq",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "0.875rem",
+                      "minDynamicHeight": 4
+                    },
+                    {
+                      "widgetName": "Citylable",
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+                      "searchTags": [
+                        "typography",
+                        "paragraph"
+                      ],
+                      "topRow": 12,
+                      "bottomRow": 16,
+                      "parentRowSpace": 10,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "overflow": "NONE",
+                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                      "parentColumnSpace": 6.9375,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 1,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "fontFamily"
+                        },
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "shouldTruncate": false,
+                      "truncateButtonColor": "#FFC13D",
+                      "text": "City",
+                      "key": "mjhp1ki1w2",
+                      "isDeprecated": false,
+                      "rightColumn": 11,
+                      "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
+                      "widgetId": "qp03j10g3s",
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "textColor": "#231F20",
+                      "version": 1,
+                      "parentId": "pqdtbv0ujq",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "1rem",
+                      "minDynamicHeight": 4
+                    },
+                    {
+                      "widgetName": "VehicleLable",
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+                      "searchTags": [
+                        "typography",
+                        "paragraph"
+                      ],
+                      "topRow": 8,
+                      "bottomRow": 12,
+                      "parentRowSpace": 10,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "overflow": "NONE",
+                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                      "parentColumnSpace": 6.9375,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 1,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "fontFamily"
+                        },
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "shouldTruncate": false,
+                      "truncateButtonColor": "#FFC13D",
+                      "text": "Vehicle",
+                      "key": "mjhp1ki1w2",
+                      "isDeprecated": false,
+                      "rightColumn": 11,
+                      "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
+                      "widgetId": "m9fcvzv29r",
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "textColor": "#231F20",
+                      "version": 1,
+                      "parentId": "pqdtbv0ujq",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "1rem",
+                      "minDynamicHeight": 4
+                    },
+                    {
+                      "widgetName": "StartDateLable",
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+                      "searchTags": [
+                        "typography",
+                        "paragraph"
+                      ],
+                      "topRow": 16,
+                      "bottomRow": 20,
+                      "parentRowSpace": 10,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "overflow": "NONE",
+                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                      "parentColumnSpace": 6.9375,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 1,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "fontFamily"
+                        },
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "shouldTruncate": false,
+                      "truncateButtonColor": "#FFC13D",
+                      "text": "Start Date",
+                      "key": "mjhp1ki1w2",
+                      "isDeprecated": false,
+                      "rightColumn": 11,
+                      "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
+                      "widgetId": "x1u0do6zgk",
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "textColor": "#231F20",
+                      "version": 1,
+                      "parentId": "pqdtbv0ujq",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "1rem",
+                      "minDynamicHeight": 4
+                    },
+                    {
+                      "widgetName": "EndDateCopy",
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+                      "searchTags": [
+                        "typography",
+                        "paragraph"
+                      ],
+                      "topRow": 16,
+                      "bottomRow": 20,
+                      "parentRowSpace": 10,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "overflow": "NONE",
+                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                      "parentColumnSpace": 6.9375,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 44,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "fontFamily"
+                        },
+                        {
+                          "key": "borderRadius"
+                        },
+                        {
+                          "key": "text"
+                        }
+                      ],
+                      "shouldTruncate": false,
+                      "truncateButtonColor": "#FFC13D",
+                      "text": "{{Previewfunc.getEndDate()}}",
+                      "key": "mjhp1ki1w2",
+                      "isDeprecated": false,
+                      "rightColumn": 59,
+                      "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
+                      "widgetId": "o667c5l4lg",
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "textColor": "#71717a",
+                      "version": 1,
+                      "parentId": "pqdtbv0ujq",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "0.875rem",
+                      "minDynamicHeight": 4
+                    },
+                    {
+                      "widgetName": "trip_based_lable",
+                      "dynamicPropertyPathList": [],
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+                      "searchTags": [
+                        "typography",
+                        "paragraph"
+                      ],
+                      "topRow": 36,
+                      "bottomRow": 40,
+                      "parentRowSpace": 10,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "overflow": "NONE",
+                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                      "parentColumnSpace": 6.9375,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 1,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "fontFamily"
+                        },
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "shouldTruncate": false,
+                      "truncateButtonColor": "#FFC13D",
+                      "text": "Trip Based Incentive",
+                      "key": "mjhp1ki1w2",
+                      "isDeprecated": false,
+                      "rightColumn": 20,
+                      "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
+                      "widgetId": "1ronv9nq7x",
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "textColor": "#231F20",
+                      "version": 1,
+                      "parentId": "pqdtbv0ujq",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "1rem",
+                      "minDynamicHeight": 4
+                    },
+                    {
+                      "widgetName": "Login_label",
+                      "dynamicPropertyPathList": [],
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+                      "searchTags": [
+                        "typography",
+                        "paragraph"
+                      ],
+                      "topRow": 32,
+                      "bottomRow": 36,
+                      "parentRowSpace": 10,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "overflow": "NONE",
+                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                      "parentColumnSpace": 6.9375,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 1,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "fontFamily"
+                        },
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "shouldTruncate": false,
+                      "truncateButtonColor": "#FFC13D",
+                      "text": "Login Incentive",
+                      "key": "mjhp1ki1w2",
+                      "isDeprecated": false,
+                      "rightColumn": 20,
+                      "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
+                      "widgetId": "he37yeyox3",
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "textColor": "#231F20",
+                      "version": 1,
+                      "parentId": "pqdtbv0ujq",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "1rem",
+                      "minDynamicHeight": 4
+                    },
+                    {
+                      "widgetName": "DryRunLabel",
+                      "dynamicPropertyPathList": [],
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+                      "searchTags": [
+                        "typography",
+                        "paragraph"
+                      ],
+                      "topRow": 28,
+                      "bottomRow": 32,
+                      "parentRowSpace": 10,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "overflow": "NONE",
+                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                      "parentColumnSpace": 6.9375,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 1,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "fontFamily"
+                        },
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "shouldTruncate": false,
+                      "truncateButtonColor": "#FFC13D",
+                      "text": "Dry Run",
+                      "key": "mjhp1ki1w2",
+                      "isDeprecated": false,
+                      "rightColumn": 20,
+                      "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
+                      "widgetId": "f49hgc6n7h",
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "textColor": "#231F20",
+                      "version": 1,
+                      "parentId": "pqdtbv0ujq",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "1rem",
+                      "minDynamicHeight": 4
+                    },
+                    {
+                      "widgetName": "FixedLabel",
+                      "dynamicPropertyPathList": [],
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+                      "searchTags": [
+                        "typography",
+                        "paragraph"
+                      ],
+                      "topRow": 24,
+                      "bottomRow": 28,
+                      "parentRowSpace": 10,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "overflow": "NONE",
+                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                      "parentColumnSpace": 6.9375,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 1,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "fontFamily"
+                        },
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "shouldTruncate": false,
+                      "truncateButtonColor": "#FFC13D",
+                      "text": "Fixed Commission",
+                      "key": "mjhp1ki1w2",
+                      "isDeprecated": false,
+                      "rightColumn": 20,
+                      "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
+                      "widgetId": "vp1djbjunr",
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "textColor": "#231F20",
+                      "version": 1,
+                      "parentId": "pqdtbv0ujq",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "1rem",
+                      "minDynamicHeight": 4
+                    },
+                    {
+                      "widgetName": "TripFareLabel",
+                      "dynamicPropertyPathList": [],
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+                      "searchTags": [
+                        "typography",
+                        "paragraph"
+                      ],
+                      "topRow": 20,
+                      "bottomRow": 24,
+                      "parentRowSpace": 10,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "overflow": "NONE",
+                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                      "parentColumnSpace": 6.9375,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 1,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "fontFamily"
+                        },
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "shouldTruncate": false,
+                      "truncateButtonColor": "#FFC13D",
+                      "text": "Trip Fare Campaign",
+                      "key": "mjhp1ki1w2",
+                      "isDeprecated": false,
+                      "rightColumn": 20,
+                      "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
+                      "widgetId": "la8twe6cz3",
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "textColor": "#231F20",
+                      "version": 1,
+                      "parentId": "pqdtbv0ujq",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "1rem",
+                      "minDynamicHeight": 4
+                    },
+                    {
+                      "widgetName": "LoginIncetVal",
+                      "dynamicPropertyPathList": [],
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+                      "searchTags": [
+                        "typography",
+                        "paragraph"
+                      ],
+                      "topRow": 32,
+                      "bottomRow": 36,
+                      "parentRowSpace": 10,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "overflow": "NONE",
+                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                      "parentColumnSpace": 6.9375,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 20,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "fontFamily"
+                        },
+                        {
+                          "key": "borderRadius"
+                        },
+                        {
+                          "key": "text"
+                        }
+                      ],
+                      "shouldTruncate": false,
+                      "truncateButtonColor": "#FFC13D",
+                      "text": "{{Previewfunc.getLogin()}}",
+                      "key": "mjhp1ki1w2",
+                      "isDeprecated": false,
+                      "rightColumn": 58,
+                      "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
+                      "widgetId": "ldw8skvelg",
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "textColor": "#71717a",
+                      "version": 1,
+                      "parentId": "pqdtbv0ujq",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "0.875rem",
+                      "minDynamicHeight": 4
+                    },
+                    {
+                      "widgetName": "DryRun",
+                      "dynamicPropertyPathList": [],
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+                      "searchTags": [
+                        "typography",
+                        "paragraph"
+                      ],
+                      "topRow": 28,
+                      "bottomRow": 32,
+                      "parentRowSpace": 10,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "overflow": "NONE",
+                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                      "parentColumnSpace": 6.9375,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 20,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "fontFamily"
+                        },
+                        {
+                          "key": "borderRadius"
+                        },
+                        {
+                          "key": "text"
+                        }
+                      ],
+                      "shouldTruncate": false,
+                      "truncateButtonColor": "#FFC13D",
+                      "text": "{{Previewfunc.getDryRunCamp()}}",
+                      "key": "mjhp1ki1w2",
+                      "isDeprecated": false,
+                      "rightColumn": 58,
+                      "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
+                      "widgetId": "anyycv29rh",
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "textColor": "#71717a",
+                      "version": 1,
+                      "parentId": "pqdtbv0ujq",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "0.875rem",
+                      "minDynamicHeight": 4
+                    },
+                    {
+                      "widgetName": "FixedPercent",
+                      "dynamicPropertyPathList": [],
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+                      "searchTags": [
+                        "typography",
+                        "paragraph"
+                      ],
+                      "topRow": 24,
+                      "bottomRow": 28,
+                      "parentRowSpace": 10,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "overflow": "NONE",
+                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                      "parentColumnSpace": 6.9375,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 20,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "fontFamily"
+                        },
+                        {
+                          "key": "borderRadius"
+                        },
+                        {
+                          "key": "text"
+                        }
+                      ],
+                      "shouldTruncate": false,
+                      "truncateButtonColor": "#FFC13D",
+                      "text": "{{Previewfunc.getFixed()}}",
+                      "key": "mjhp1ki1w2",
+                      "isDeprecated": false,
+                      "rightColumn": 58,
+                      "disableLink": false,
+                      "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
+                      "widgetId": "v72h4mgyx6",
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "textColor": "#71717a",
+                      "version": 1,
+                      "parentId": "pqdtbv0ujq",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "0.875rem",
+                      "minDynamicHeight": 4
+                    },
+                    {
+                      "widgetName": "TripFare",
+                      "dynamicPropertyPathList": [],
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+                      "searchTags": [
+                        "typography",
+                        "paragraph"
+                      ],
+                      "topRow": 20,
+                      "bottomRow": 24,
+                      "parentRowSpace": 10,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "overflow": "NONE",
+                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                      "parentColumnSpace": 6.9375,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 20,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "fontFamily"
+                        },
+                        {
+                          "key": "borderRadius"
+                        },
+                        {
+                          "key": "text"
+                        }
+                      ],
+                      "shouldTruncate": false,
+                      "truncateButtonColor": "#FFC13D",
+                      "text": "{{Previewfunc.getTripFare()}}",
+                      "key": "mjhp1ki1w2",
+                      "isDeprecated": false,
+                      "rightColumn": 58,
+                      "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
+                      "widgetId": "glkn5xc318",
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "textColor": "#71717a",
+                      "version": 1,
+                      "parentId": "pqdtbv0ujq",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "0.875rem",
+                      "minDynamicHeight": 4
+                    },
+                    {
+                      "widgetName": "EndDateLabel",
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+                      "searchTags": [
+                        "typography",
+                        "paragraph"
+                      ],
+                      "topRow": 16,
+                      "bottomRow": 20,
+                      "parentRowSpace": 10,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "overflow": "NONE",
+                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                      "parentColumnSpace": 6.9375,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 35,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "fontFamily"
+                        },
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "shouldTruncate": false,
+                      "truncateButtonColor": "#FFC13D",
+                      "text": "End Date",
+                      "key": "mjhp1ki1w2",
+                      "isDeprecated": false,
+                      "rightColumn": 44,
+                      "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
+                      "widgetId": "fczgx02nnx",
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "textColor": "#231F20",
+                      "version": 1,
+                      "parentId": "pqdtbv0ujq",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "1rem",
+                      "minDynamicHeight": 4
+                    },
+                    {
+                      "widgetName": "StartDate",
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+                      "searchTags": [
+                        "typography",
+                        "paragraph"
+                      ],
+                      "topRow": 16,
+                      "bottomRow": 20,
+                      "parentRowSpace": 10,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "overflow": "NONE",
+                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                      "parentColumnSpace": 6.9375,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 11,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "fontFamily"
+                        },
+                        {
+                          "key": "borderRadius"
+                        },
+                        {
+                          "key": "text"
+                        }
+                      ],
+                      "shouldTruncate": false,
+                      "truncateButtonColor": "#FFC13D",
+                      "text": "{{Previewfunc.getStartDate()}}",
+                      "key": "mjhp1ki1w2",
+                      "isDeprecated": false,
+                      "rightColumn": 24,
+                      "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
+                      "widgetId": "0wnn8qito9",
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "textColor": "#71717a",
+                      "version": 1,
+                      "parentId": "pqdtbv0ujq",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "0.875rem",
+                      "minDynamicHeight": 4
+                    },
+                    {
+                      "widgetName": "City_label",
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+                      "searchTags": [
+                        "typography",
+                        "paragraph"
+                      ],
+                      "topRow": 12,
+                      "bottomRow": 16,
+                      "parentRowSpace": 10,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "overflow": "NONE",
+                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                      "parentColumnSpace": 6.9375,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 11,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "fontFamily"
+                        },
+                        {
+                          "key": "borderRadius"
+                        },
+                        {
+                          "key": "text"
+                        }
+                      ],
+                      "shouldTruncate": false,
+                      "truncateButtonColor": "#FFC13D",
+                      "text": "{{Previewfunc.getCity()}}",
+                      "key": "mjhp1ki1w2",
+                      "isDeprecated": false,
+                      "rightColumn": 62,
+                      "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
+                      "widgetId": "vozjrt79b0",
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "textColor": "#71717a",
+                      "version": 1,
+                      "parentId": "pqdtbv0ujq",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "0.875rem",
+                      "minDynamicHeight": 4
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "IconButton6",
+                      "onClick": "{{closeModal('preview_modal')}}",
+                      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "displayName": "Icon Button",
+                      "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
+                      "searchTags": [
+                        "click",
+                        "submit"
+                      ],
+                      "topRow": 0,
+                      "bottomRow": 4,
+                      "type": "ICON_BUTTON_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "leftColumn": 56,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "buttonColor"
+                        },
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "iconSize": 24,
+                      "isDisabled": false,
+                      "key": "qabavsepbz",
+                      "isDeprecated": false,
+                      "rightColumn": 64,
+                      "iconName": "cross",
+                      "widgetId": "56azg6uouh",
+                      "isVisible": true,
+                      "version": 1,
+                      "parentId": "pqdtbv0ujq",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "buttonVariant": "TERTIARY"
+                    },
+                    {
+                      "widgetName": "Text3",
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+                      "searchTags": [
+                        "typography",
+                        "paragraph"
+                      ],
+                      "topRow": 0,
+                      "bottomRow": 4,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "overflow": "NONE",
+                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 1,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "fontFamily"
+                        },
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "shouldTruncate": false,
+                      "truncateButtonColor": "#FFC13D",
+                      "text": "Campaign Details",
+                      "key": "mjhp1ki1w2",
+                      "isDeprecated": false,
+                      "rightColumn": 41,
+                      "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
+                      "widgetId": "sidb25raf0",
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "textColor": "#231F20",
+                      "version": 1,
+                      "parentId": "pqdtbv0ujq",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "1.5rem",
+                      "minDynamicHeight": 4
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "Button4",
+                      "onClick": "{{closeModal('preview_modal')}}",
+                      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "displayName": "Button",
+                      "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
+                      "searchTags": [
+                        "click",
+                        "submit"
+                      ],
+                      "topRow": 51,
+                      "bottomRow": 55,
+                      "type": "BUTTON_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "leftColumn": 18,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "buttonColor"
+                        },
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "text": "Close",
+                      "isDisabled": false,
+                      "key": "bi7pvrb11q",
+                      "isDeprecated": false,
+                      "rightColumn": 34,
+                      "isDefaultClickDisabled": true,
+                      "widgetId": "ff1ophpip8",
+                      "buttonStyle": "PRIMARY",
+                      "isVisible": true,
+                      "recaptchaType": "V3",
+                      "version": 1,
+                      "parentId": "pqdtbv0ujq",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "buttonVariant": "SECONDARY",
+                      "placement": "CENTER"
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "Button5",
+                      "onClick": "{{CreateCampaignCall.create()}}",
+                      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "isDisabled"
+                        }
+                      ],
+                      "displayName": "Button",
+                      "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
+                      "searchTags": [
+                        "click",
+                        "submit"
+                      ],
+                      "topRow": 51,
+                      "bottomRow": 55,
+                      "tooltip": "Confirm",
+                      "type": "BUTTON_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
+                      "leftColumn": 34,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "buttonColor"
+                        },
+                        {
+                          "key": "borderRadius"
+                        },
+                        {
+                          "key": "isDisabled"
+                        }
+                      ],
+                      "text": "Confirm",
+                      "isDisabled": "{{TripBasedFunc.is_confirm()}}",
+                      "key": "bi7pvrb11q",
+                      "isDeprecated": false,
+                      "rightColumn": 50,
+                      "isDefaultClickDisabled": true,
+                      "widgetId": "mphnrhkfyk",
+                      "buttonStyle": "PRIMARY_BUTTON",
+                      "isVisible": true,
+                      "recaptchaType": "V3",
+                      "version": 1,
+                      "parentId": "pqdtbv0ujq",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "buttonVariant": "PRIMARY",
+                      "placement": "CENTER"
+                    },
+                    {
+                      "widgetName": "Vehicle_Label",
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+                      "searchTags": [
+                        "typography",
+                        "paragraph"
+                      ],
+                      "topRow": 8,
+                      "bottomRow": 12,
+                      "parentRowSpace": 10,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "overflow": "NONE",
+                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                      "parentColumnSpace": 6.9375,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 11,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "fontFamily"
+                        },
+                        {
+                          "key": "borderRadius"
+                        },
+                        {
+                          "key": "text"
+                        }
+                      ],
+                      "shouldTruncate": false,
+                      "truncateButtonColor": "#FFC13D",
+                      "text": "{{Previewfunc.getVehicle()}}",
+                      "key": "mjhp1ki1w2",
+                      "isDeprecated": false,
+                      "rightColumn": 62,
+                      "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
+                      "widgetId": "cs6jthpp7k",
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "textColor": "#71717a",
+                      "version": 1,
+                      "parentId": "pqdtbv0ujq",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "0.875rem",
+                      "minDynamicHeight": 4
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "Divider2",
+                      "thickness": 2,
+                      "displayName": "Divider",
+                      "iconSVG": "/static/media/icon.cbe8f608ca868e1eb44607e5fbd4a9e5.svg",
+                      "searchTags": [
+                        "line"
+                      ],
+                      "topRow": 4,
+                      "bottomRow": 8,
+                      "parentRowSpace": 10,
+                      "type": "DIVIDER_WIDGET",
+                      "capType": "nc",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 11.125,
+                      "leftColumn": 0,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "borderRadius"
+                        },
+                        {
+                          "key": "accentColor"
+                        }
+                      ],
+                      "key": "q2ozxs93zz",
+                      "dividerColor": "#EBEBEB",
+                      "orientation": "horizontal",
+                      "strokeStyle": "solid",
+                      "isDeprecated": false,
+                      "rightColumn": 64,
+                      "widgetId": "ynb67taomt",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "capSide": 0,
+                      "isVisible": true,
+                      "version": 1,
+                      "parentId": "pqdtbv0ujq",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+                    },
+                    {
+                      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+                      "isVisibleDownload": false,
+                      "iconSVG": "/static/media/icon.db8a9cbd2acd22a31ea91cc37ea2a46c.svg",
+                      "topRow": 36,
+                      "isSortable": false,
+                      "type": "TABLE_WIDGET",
+                      "animateLoading": false,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "accentColor"
+                        },
+                        {
+                          "key": "borderRadius"
+                        },
+                        {
+                          "key": "boxShadow"
+                        },
+                        {
+                          "key": "childStylesheet.button.buttonColor"
+                        },
+                        {
+                          "key": "childStylesheet.button.borderRadius"
+                        },
+                        {
+                          "key": "childStylesheet.menuButton.menuColor"
+                        },
+                        {
+                          "key": "childStylesheet.menuButton.borderRadius"
+                        },
+                        {
+                          "key": "childStylesheet.iconButton.buttonColor"
+                        },
+                        {
+                          "key": "childStylesheet.iconButton.borderRadius"
+                        },
+                        {
+                          "key": "primaryColumns.amount.computedValue"
+                        },
+                        {
+                          "key": "primaryColumns.completed_order_count.computedValue"
+                        },
+                        {
+                          "key": "isVisible"
+                        },
+                        {
+                          "key": "tableData"
+                        }
+                      ],
+                      "leftColumn": 48,
+                      "delimiter": ",",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "isVisibleFilters": false,
+                      "isVisible": "{{PayoutCampaignForm.formData.campaigns.trip_based_incentive.active}}",
+                      "enableClientSideSearch": false,
+                      "version": 3,
+                      "totalRecordsCount": 0,
+                      "isLoading": false,
+                      "childStylesheet": {
+                        "button": {
+                          "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                          "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                          "boxShadow": "none"
+                        },
+                        "menuButton": {
+                          "menuColor": "{{appsmith.theme.colors.primaryColor}}",
+                          "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                          "boxShadow": "none"
+                        },
+                        "iconButton": {
+                          "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                          "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                          "boxShadow": "none"
+                        }
+                      },
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "columnSizeMap": {
+                        "task": 245,
+                        "step": 62,
+                        "status": 75,
+                        "completed_order_count": 96
+                      },
+                      "widgetName": "Table1",
+                      "defaultPageSize": 0,
+                      "columnOrder": [
+                        "completed_order_count",
+                        "amount"
+                      ],
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "isVisible"
+                        }
+                      ],
+                      "compactMode": "DEFAULT",
+                      "displayName": "Table",
+                      "searchTags": [
+                        "datagrid"
+                      ],
+                      "bottomRow": 51,
+                      "parentRowSpace": 10,
+                      "defaultSelectedRow": "0",
+                      "hideCard": false,
+                      "parentColumnSpace": 11.924999999999999,
+                      "dynamicTriggerPathList": [],
+                      "primaryColumns": {
+                        "amount": {
+                          "index": 3,
+                          "width": 150,
+                          "id": "amount",
+                          "horizontalAlignment": "LEFT",
+                          "verticalAlignment": "CENTER",
+                          "columnType": "text",
+                          "textSize": "0.875rem",
+                          "enableFilter": true,
+                          "enableSort": true,
+                          "isVisible": true,
+                          "isDisabled": false,
+                          "isCellVisible": true,
+                          "isDerived": false,
+                          "label": "Amount(₹)",
+                          "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.amount))}}"
+                        },
+                        "completed_order_count": {
+                          "index": 1,
+                          "width": 150,
+                          "id": "completed_order_count",
+                          "horizontalAlignment": "LEFT",
+                          "verticalAlignment": "CENTER",
+                          "columnType": "text",
+                          "textSize": "0.875rem",
+                          "enableFilter": true,
+                          "enableSort": true,
+                          "isVisible": true,
+                          "isDisabled": false,
+                          "isCellVisible": true,
+                          "isDerived": false,
+                          "label": "No Orders",
+                          "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.completed_order_count))}}"
+                        }
+                      },
+                      "key": "e79nhwgspd",
+                      "derivedColumns": {},
+                      "isDeprecated": false,
+                      "rightColumn": 64,
+                      "textSize": "0.875rem",
+                      "widgetId": "34uu07au4b",
+                      "tableData": "{{PayoutCampaignForm.formData.campaigns.trip_based_incentive.payouts}}",
+                      "label": "Data",
+                      "searchKey": "",
+                      "parentId": "pqdtbv0ujq",
+                      "renderMode": "CANVAS",
+                      "horizontalAlignment": "LEFT",
+                      "isVisibleSearch": false,
+                      "isVisiblePagination": true,
+                      "verticalAlignment": "CENTER"
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "Button6",
+                      "onClick": "{{TripBasedFunc.getEligDriver()}}",
+                      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "isVisible"
+                        },
+                        {
+                          "key": "isDisabled"
+                        }
+                      ],
+                      "displayName": "Button",
+                      "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
+                      "searchTags": [
+                        "click",
+                        "submit"
+                      ],
+                      "topRow": 51,
+                      "bottomRow": 55,
+                      "tooltip": "",
+                      "parentRowSpace": 10,
+                      "type": "BUTTON_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 11.924999999999999,
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
+                      "leftColumn": 1,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "buttonColor"
+                        },
+                        {
+                          "key": "borderRadius"
+                        },
+                        {
+                          "key": "isVisible"
+                        },
+                        {
+                          "key": "isDisabled"
+                        }
+                      ],
+                      "text": "Check Eligibility",
+                      "isDisabled": "{{!PayoutCampaignForm.formData.campaigns.trip_based_incentive.active}}",
+                      "key": "2722pu9k03",
+                      "isDeprecated": false,
+                      "rightColumn": 17,
+                      "isDefaultClickDisabled": true,
+                      "widgetId": "8u572frggx",
+                      "isVisible": "{{PayoutCampaignForm.formData.campaigns.trip_based_incentive.active}}",
+                      "recaptchaType": "V3",
+                      "version": 1,
+                      "parentId": "pqdtbv0ujq",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "buttonVariant": "PRIMARY",
+                      "placement": "CENTER"
+                    }
+                  ],
+                  "isDisabled": false,
+                  "key": "re0fnavg3h",
+                  "isDeprecated": false,
+                  "rightColumn": 0,
+                  "detachFromLayout": true,
+                  "widgetId": "pqdtbv0ujq",
+                  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "isVisible": true,
+                  "version": 1,
+                  "parentId": "16yl7pvo2r",
+                  "renderMode": "CANVAS",
+                  "isLoading": false,
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+                }
+              ],
+              "key": "82d6dfjp7y",
+              "height": 692,
+              "isDeprecated": false,
+              "rightColumn": 0,
+              "detachFromLayout": true,
+              "dynamicHeight": "FIXED",
+              "widgetId": "16yl7pvo2r",
+              "canOutsideClickClose": true,
+              "canEscapeKeyClose": true,
+              "version": 2,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "maxDynamicHeight": 9000,
+              "width": 775.1999999999999,
+              "minDynamicHeight": 4
+            }
+          ]
+        },
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "CreatePage_EligibleDriver",
+              "name": "EligibleDriver",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "typeof(this.params.result_ids) != 'undefined' ? `where (geo_region_id = ${this.params.city_id} and vehicle_id = ${this.params.vehicle_id} ) and id = ANY('${ '{' + this.params.result_ids + '}' }') limit 5000;` : ' limit 0'"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "CreatePage_GeoRegionsSelect",
+              "name": "GeoRegionsSelect",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "CreatePage_VehicleSelectionList",
+              "name": "VehicleSelectionList",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "CreatePage",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": true
+  },
+  "deleted": false,
+  "gitSyncId": "6260fd83d030f71edbd113b0_626109cdd030f71edbd113ca"
+}
