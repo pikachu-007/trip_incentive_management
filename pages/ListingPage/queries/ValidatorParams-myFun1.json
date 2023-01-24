@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "check",
-    "fullyQualifiedName": "IsAuthenticated.check",
+    "name": "myFun1",
+    "fullyQualifiedName": "ValidatorParams.myFun1",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -13,13 +13,13 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "ExpirePage",
-    "collectionId": "ExpirePage_IsAuthenticated",
+    "pageId": "ListingPage",
+    "collectionId": "ListingPage_ValidatorParams",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "() => {\n  return \"Authenticated\";\n}",
+      "body": "() => {}",
       "selfReferencingDataPaths": [],
       "jsArguments": [],
       "isAsync": false
@@ -35,14 +35,14 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "() => {\n  return \"Authenticated\";\n}"
+      "() => {}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "ExpirePage_IsAuthenticated.check",
+  "id": "ListingPage_ValidatorParams.myFun1",
   "deleted": false,
-  "gitSyncId": "62aae528395e497cd3375bd0_62b01613395e497cd3375c7f"
+  "gitSyncId": "63c3f1456fcd6451228d5c93_63ce6669e2520726999f94a2"
 }

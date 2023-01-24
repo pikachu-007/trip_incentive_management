@@ -19,7 +19,7 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 59,
+          "version": 71,
           "minHeight": 710,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
@@ -277,7 +277,7 @@
                                   "label": "Campaign Type",
                                   "labelTextSize": "0.875rem",
                                   "serverSideFiltering": false,
-                                  "options": "[\n  {\n    \"label\": \"Dryrun\",\n    \"value\": \"DRYRUN\"\n  },\n  {\n    \"label\": \"Login incentive\",\n    \"value\": \"LOGIN_INCV\"\n  }\n]",
+                                  "options": "[\n  {\n    \"label\": \"\",\n    \"value\": \"DRYRUN\"\n  },\n  {\n    \"label\": \"Login incentive\",\n    \"value\": \"LOGIN_INCV\"\n  }\n]",
                                   "tooltip": "{{((sourceData, formData, fieldState) => (`Select Campaign Type`))(ExpireCampaignForm.sourceData, ExpireCampaignForm.formData, ExpireCampaignForm.fieldState)}}"
                                 }
                               },
@@ -634,6 +634,7 @@
                       "labelTextSize": "0.875rem",
                       "backgroundColor": "#F6F7F8",
                       "rightColumn": 43,
+                      "dynamicHeight": "FIXED",
                       "autoGenerateForm": true,
                       "widgetId": "v61fzldb39",
                       "resetButtonStyles": {
@@ -730,7 +731,9 @@
                       },
                       "disabledWhenInvalid": true,
                       "borderRadius": "0px",
-                      "boxShadowColor": "#F6F7F8"
+                      "maxDynamicHeight": 9000,
+                      "boxShadowColor": "#F6F7F8",
+                      "minDynamicHeight": 4
                     }
                   ],
                   "isDisabled": false,
@@ -789,6 +792,7 @@
                       "labelTextSize": "0.875rem",
                       "rightColumn": 33,
                       "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
                       "widgetId": "8826d2c9rx",
                       "isVisible": true,
                       "fontStyle": "BOLD",
@@ -798,7 +802,9 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "0px",
-                      "fontSize": "0.875rem"
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "0.875rem",
+                      "minDynamicHeight": 4
                     },
                     {
                       "boxShadow": "none",
@@ -862,6 +868,7 @@
               "key": "8sy8008wt4",
               "labelTextSize": "0.875rem",
               "rightColumn": 60,
+              "dynamicHeight": "FIXED",
               "widgetId": "e5ouh5nwjp",
               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
               "defaultTab": "{{IsAuthenticated.check()}}",
@@ -889,7 +896,9 @@
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "borderRadius": "0px"
+              "borderRadius": "0px",
+              "maxDynamicHeight": 9000,
+              "minDynamicHeight": 4
             }
           ]
         },
@@ -913,6 +922,7 @@
             }
           ]
         ],
+        "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "ExpirePage",
         "deleted": false,
